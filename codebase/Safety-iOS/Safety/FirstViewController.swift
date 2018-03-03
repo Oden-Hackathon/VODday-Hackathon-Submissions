@@ -43,31 +43,31 @@ class FirstViewController: UIViewController {
         let overdoseAction = UIAlertAction(title: "Overdose", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Overdose")
-            self.helpAlert ("Overdose")
+            self.helpAlert (title : "Overdose")
         })
         
         let heartAttackAction = UIAlertAction(title: "Heart Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Heart Attack")
-            self.helpAlert ("Heart Attack")
+            self.helpAlert (title : "Heart Attack")
         })
         
         let asthmaAction = UIAlertAction(title: "Asthma Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Asthma Attack")
-            self.helpAlert ("Asthma Attack")
+            self.helpAlert (title : "Asthma Attack")
         })
         
         let anaphylacticAction = UIAlertAction(title: "Anaphylactic Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Anaphylactic Attack")
-            self.helpAlert ("Anaphylactic Attack")
+            self.helpAlert (title : "Anaphylactic Attack")
         })
         
         let otherAction = UIAlertAction(title: "Other", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Other")
-            self.helpAlert ("Other")
+            self.helpAlert (title : g"Other")
         })
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: {
