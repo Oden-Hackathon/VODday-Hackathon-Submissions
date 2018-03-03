@@ -8,17 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		BA04F7957A09223B37A941D8 /* Pods_Safety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0350E6BF17129D300203A /* Pods_Safety.framework */; };
+		C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447AF204B444F00205598 /* ManifestEntry.swift */; };
+		C7B447B7204B444F00205598 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B0204B444F00205598 /* Downloader.swift */; };
+		C7B447B8204B444F00205598 /* SyncUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B1204B444F00205598 /* SyncUtils.swift */; };
+		C7B447BA204B444F00205598 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B3204B444F00205598 /* Manifest.swift */; };
+		C7B447BB204B444F00205598 /* ManifestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B4204B444F00205598 /* ManifestDownloader.swift */; };
+		C7B447BC204B444F00205598 /* ManifestDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B5204B444F00205598 /* ManifestDownloaderDelegate.swift */; };
 		C7E9F3F4204B27B600E4D8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F3F3204B27B600E4D8A1 /* AppDelegate.swift */; };
 		C7E9F3F6204B27B600E4D8A1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F3F5204B27B600E4D8A1 /* FirstViewController.swift */; };
 		C7E9F3F8204B27B600E4D8A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F3F7204B27B600E4D8A1 /* SecondViewController.swift */; };
 		C7E9F3FB204B27B600E4D8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E9F3F9204B27B600E4D8A1 /* Main.storyboard */; };
 		C7E9F3FD204B27B600E4D8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E9F3FC204B27B600E4D8A1 /* Assets.xcassets */; };
 		C7E9F400204B27B600E4D8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E9F3FE204B27B600E4D8A1 /* LaunchScreen.storyboard */; };
+		C7FA30E4204B435F0079475E /* oden-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C7FA30DD204B435F0079475E /* oden-manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AE0350E6BF17129D300203A /* Pods_Safety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		726C045253CC989B51F27C46 /* Pods-Safety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig"; sourceTree = "<group>"; };
+		C7B447AF204B444F00205598 /* ManifestEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManifestEntry.swift; sourceTree = "<group>"; };
+		C7B447B0204B444F00205598 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		C7B447B1204B444F00205598 /* SyncUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncUtils.swift; sourceTree = "<group>"; };
+		C7B447B3204B444F00205598 /* Manifest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
+		C7B447B4204B444F00205598 /* ManifestDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManifestDownloader.swift; sourceTree = "<group>"; };
+		C7B447B5204B444F00205598 /* ManifestDownloaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManifestDownloaderDelegate.swift; sourceTree = "<group>"; };
 		C7E9F3F0204B27B600E4D8A1 /* Safety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E9F3F3204B27B600E4D8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E9F3F5204B27B600E4D8A1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +40,7 @@
 		C7E9F3FC204B27B600E4D8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E9F3FF204B27B600E4D8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E9F401204B27B600E4D8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FA30DD204B435F0079475E /* oden-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "oden-manifest.json"; path = "../../../../oden-iOS-getting-started/ODENSample/ODENSample/oden-manifest.json"; sourceTree = "<group>"; };
 		FDA285BC303039220137BFBF /* Pods-Safety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Safety/Pods-Safety.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +73,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C7B447BD204B445D00205598 /* ODEN */ = {
+			isa = PBXGroup;
+			children = (
+				C7B447B0204B444F00205598 /* Downloader.swift */,
+				C7B447B3204B444F00205598 /* Manifest.swift */,
+				C7B447B4204B444F00205598 /* ManifestDownloader.swift */,
+				C7B447B5204B444F00205598 /* ManifestDownloaderDelegate.swift */,
+				C7B447AF204B444F00205598 /* ManifestEntry.swift */,
+				C7B447B1204B444F00205598 /* SyncUtils.swift */,
+			);
+			path = ODEN;
+			sourceTree = "<group>";
+		};
 		C7E9F3E7204B27B600E4D8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +114,8 @@
 				C7E9F3FC204B27B600E4D8A1 /* Assets.xcassets */,
 				C7E9F3FE204B27B600E4D8A1 /* LaunchScreen.storyboard */,
 				C7E9F401204B27B600E4D8A1 /* Info.plist */,
+				C7B447BD204B445D00205598 /* ODEN */,
+				C7FA30DD204B435F0079475E /* oden-manifest.json */,
 			);
 			path = Safety;
 			sourceTree = "<group>";
@@ -153,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FA30E4204B435F0079475E /* oden-manifest.json in Resources */,
 				C7E9F400204B27B600E4D8A1 /* LaunchScreen.storyboard in Resources */,
 				C7E9F3FD204B27B600E4D8A1 /* Assets.xcassets in Resources */,
 				C7E9F3FB204B27B600E4D8A1 /* Main.storyboard in Resources */,
@@ -222,9 +252,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B447BA204B444F00205598 /* Manifest.swift in Sources */,
+				C7B447BB204B444F00205598 /* ManifestDownloader.swift in Sources */,
+				C7B447B7204B444F00205598 /* Downloader.swift in Sources */,
 				C7E9F3F8204B27B600E4D8A1 /* SecondViewController.swift in Sources */,
+				C7B447B8204B444F00205598 /* SyncUtils.swift in Sources */,
 				C7E9F3F4204B27B600E4D8A1 /* AppDelegate.swift in Sources */,
 				C7E9F3F6204B27B600E4D8A1 /* FirstViewController.swift in Sources */,
+				C7B447BC204B444F00205598 /* ManifestDownloaderDelegate.swift in Sources */,
+				C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
