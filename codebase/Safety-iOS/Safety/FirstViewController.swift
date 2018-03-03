@@ -43,37 +43,36 @@ class FirstViewController: UIViewController {
         let overdoseAction = UIAlertAction(title: "Overdose", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Overdose")
-            self.helpAlert ()
+            self.helpAlert ("Overdose")
         })
         
         let heartAttackAction = UIAlertAction(title: "Heart Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Heart Attack")
-            self.helpAlert ()
+            self.helpAlert ("Heart Attack")
         })
         
         let asthmaAction = UIAlertAction(title: "Asthma Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Asthma Attack")
-            self.helpAlert ()
+            self.helpAlert ("Asthma Attack")
         })
         
         let anaphylacticAction = UIAlertAction(title: "Anaphylactic Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Anaphylactic Attack")
-            self.helpAlert ()
+            self.helpAlert ("Anaphylactic Attack")
         })
         
         let otherAction = UIAlertAction(title: "Other", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Other")
-            self.helpAlert ()
+            self.helpAlert ("Other")
         })
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Cancelled")
-            self.helpAlert ()
         })
         
         // Option Menus
