@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE85204B5F8A00391DD8 /* FeedAlertViewCell.swift */; };
+		5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE86204B5F8A00391DD8 /* FeedAlert.swift */; };
 		BA04F7957A09223B37A941D8 /* Pods_Safety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0350E6BF17129D300203A /* Pods_Safety.framework */; };
 		C738B555204B4A2A00C57A2D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B554204B4A2A00C57A2D /* Notifications.swift */; };
 		C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B556204B4AE500C57A2D /* AppNotifications.swift */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		2AE0350E6BF17129D300203A /* Pods_Safety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5481FE85204B5F8A00391DD8 /* FeedAlertViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedAlertViewCell.swift; sourceTree = "<group>"; };
+		5481FE86204B5F8A00391DD8 /* FeedAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedAlert.swift; sourceTree = "<group>"; };
 		726C045253CC989B51F27C46 /* Pods-Safety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig"; sourceTree = "<group>"; };
 		C738B554204B4A2A00C57A2D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		C738B556204B4AE500C57A2D /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				C7E9F3FE204B27B600E4D8A1 /* LaunchScreen.storyboard */,
 				C7E9F401204B27B600E4D8A1 /* Info.plist */,
 				C7B447BD204B445D00205598 /* ODEN */,
+				5481FE86204B5F8A00391DD8 /* FeedAlert.swift */,
+				5481FE85204B5F8A00391DD8 /* FeedAlertViewCell.swift */,
 				C7FA30DD204B435F0079475E /* oden-manifest.json */,
 				C738B554204B4A2A00C57A2D /* Notifications.swift */,
 				C738B556204B4AE500C57A2D /* AppNotifications.swift */,
@@ -269,8 +275,10 @@
 				C7E9F3F4204B27B600E4D8A1 /* AppDelegate.swift in Sources */,
 				C7E9F3F6204B27B600E4D8A1 /* FirstViewController.swift in Sources */,
 				C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */,
+				5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */,
 				C7B447BC204B444F00205598 /* ManifestDownloaderDelegate.swift in Sources */,
 				C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */,
+				5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
