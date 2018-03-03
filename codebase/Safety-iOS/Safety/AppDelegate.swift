@@ -18,29 +18,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
     let locationManager = CLLocationManager ()
     let downloader = ManifestDownloader()
     var manifest : [ManifestEntry]?
+    var requestDataReceiver: NSObjectProtocol?
     
     private var startTime: Date? //An instance variable, will be used as a previous location time.
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         downloader.delegate = self
         locationManager.delegate = self
-        
-        do
-        {
-            try downloader.download("oden-manifest", overwrite: true)
-        }
-        catch
-    var requestDataReceiver: NSObjectProtocol?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
-    {
-        requestDataReceiver = AppNotifications.addRequestDataObserver(object: nil)
-        {
+        requestDataReceiver = AppNotifications.addRequestDataObserver(object: nil) {
             (fileName) in
             
             logTrace { "enter RequestData receiver" }
             self.requestData(fileName)
             logTrace { "exit RequestData receiver" }
+        }
+        
+        do {
+            try downloader.download("oden-manifest", overwrite: true)
+        }
+        catch {
+            print (error)
         }
         
         // Override point for customization after application launch.

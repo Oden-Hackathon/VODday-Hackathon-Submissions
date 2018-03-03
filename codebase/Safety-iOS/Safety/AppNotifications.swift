@@ -30,7 +30,7 @@ class AppNotifications: Notifications
         
         post(messageName: AppNotifications.RequestData,
              object: object,
-             userInfo: userInfo)
+             userInfo: userInfo as [NSObject : AnyObject])
         
         logTrace { "exit \(#function)" }
     }
@@ -40,7 +40,7 @@ class AppNotifications: Notifications
     {
         logTrace { "enter \(#function)" }
         
-        let id = addObserver(forName: AppNotifications.RequestData,
+        let id = addObserver(messageName: AppNotifications.RequestData,
                              object: object)
         {
             (notification) in
@@ -71,7 +71,7 @@ class AppNotifications: Notifications
         
         post(messageName: AppNotifications.DataReceived,
              object: object,
-             userInfo: userInfo)
+             userInfo: userInfo as [NSObject : AnyObject])
         
         logTrace { "exit \(#function)" }
     }
@@ -81,7 +81,7 @@ class AppNotifications: Notifications
     {
         logTrace { "enter \(#function)" }
         
-        let id = addObserver(forName: AppNotifications.DataReceived,
+        let id = addObserver(messageName: AppNotifications.DataReceived,
                              object: object)
         {
             (notification) in
