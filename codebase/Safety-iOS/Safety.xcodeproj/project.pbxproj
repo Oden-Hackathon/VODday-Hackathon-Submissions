@@ -11,6 +11,7 @@
 		5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE86204B5F8A00391DD8 /* FeedAlert.swift */; };
 		B990D255204B63E4005211EB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D254204B63E4005211EB /* Location.swift */; };
 		B990D257204B6474005211EB /* oden-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B990D256204B6474005211EB /* oden-manifest.json */; };
+		B990D259204B6C78005211EB /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D258204B6C78005211EB /* VCMapView.swift */; };
 		BA04F7957A09223B37A941D8 /* Pods_Safety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0350E6BF17129D300203A /* Pods_Safety.framework */; };
 		C738B555204B4A2A00C57A2D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B554204B4A2A00C57A2D /* Notifications.swift */; };
 		C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B556204B4AE500C57A2D /* AppNotifications.swift */; };
@@ -35,6 +36,7 @@
 		726C045253CC989B51F27C46 /* Pods-Safety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig"; sourceTree = "<group>"; };
 		B990D254204B63E4005211EB /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B990D256204B6474005211EB /* oden-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "oden-manifest.json"; sourceTree = "<group>"; };
+		B990D258204B6C78005211EB /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		C738B554204B4A2A00C57A2D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		C738B556204B4AE500C57A2D /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
 		C7B447AF204B444F00205598 /* ManifestEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManifestEntry.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				C7E9F3F5204B27B600E4D8A1 /* FirstViewController.swift */,
 				C7E9F3F7204B27B600E4D8A1 /* SecondViewController.swift */,
 				C7E9F3F9204B27B600E4D8A1 /* Main.storyboard */,
+				B990D258204B6C78005211EB /* VCMapView.swift */,
 				C7E9F3FC204B27B600E4D8A1 /* Assets.xcassets */,
 				C7E9F3FE204B27B600E4D8A1 /* LaunchScreen.storyboard */,
 				C7E9F401204B27B600E4D8A1 /* Info.plist */,
@@ -281,6 +284,7 @@
 				C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */,
 				5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */,
 				C7B447BC204B444F00205598 /* ManifestDownloaderDelegate.swift in Sources */,
+				B990D259204B6C78005211EB /* VCMapView.swift in Sources */,
 				C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */,
 				5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */,
 			);
