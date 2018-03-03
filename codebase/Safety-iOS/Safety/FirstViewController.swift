@@ -67,7 +67,7 @@ class FirstViewController: UIViewController {
         let otherAction = UIAlertAction(title: "Other", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Other")
-            self.helpAlert (title : g"Other")
+            self.helpAlert (title : "Other")
         })
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: {
