@@ -8,19 +8,43 @@
 
 import UIKit
 import MapKit
+import TraceLog
 
 class FirstViewController: UIViewController {
+    var receivedDataReceiver: NSObjectProtocol?
 
     @IBOutlet weak var MView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        receivedDataReceiver = AppNotifications.addDataReceivedObserver(object: nil)
+        {
+            (urls) in
+            
+            logTrace { "enter DataReceived receiver" }
+            self.receivedData(urls)
+            logTrace { "exit DataReceived receiver" }
+        }
+        
+        AppNotifications.postRequestData("oden-manifest")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    private func receivedData(_ urls : [URL]!)
+    {
+        urls.forEach
+        {
+            (url) in
+            
+            print(url.path)
+        }
     }
     
     func helpAlert (title: String) {

@@ -8,4 +8,5 @@ target 'Safety' do
   # Pods for Safety
   pod "EVReflection"
   pod 'ZIPFoundation'
+  pod "TraceLog"
 end
