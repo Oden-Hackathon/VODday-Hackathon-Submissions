@@ -9,12 +9,26 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegate
+{
 
     var window: UIWindow?
 
+    let downloader = ManifestDownloader()
+    var manifest : [ManifestEntry]?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        downloader.delegate = self
+        
+        do
+        {
+            try downloader.download("oden-manifest", overwrite: true)
+        }
+        catch
+        {
+            print("error: \(error.localizedDescription)")
+        }
+
         // Override point for customization after application launch.
         return true
     }
@@ -41,6 +55,70 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func converted(_ entry: ManifestEntry, to convertedDatasetURL: URL!)
+    {
+        print("converted \(entry.provider!) to: \(convertedDatasetURL.path)")
+        
+        /*
+         do
+         {
+         print(try String(contentsOf: convertedDatasetURL));
+         }
+         catch
+         {
+         print(error)
+         }
+         */
+        
+        print("----")
+    }
+    
+    func conversionCompleted(_ entries : [ManifestEntry]!)
+    {
+        let convertedDatasetURLs = Manifest.getLocalDatasetFilesFor(entries)!
+        
+        convertedDatasetURLs.forEach
+        {
+            (convertedDatasetURL) in
 
+            print(convertedDatasetURL)
+        }
+    }
+    
+    func downloadError(_ entry : ManifestEntry!, error: Error!)
+    {
+        sync(self)
+        {
+            print("error downloading \(entry.provider!): \(error.localizedDescription)")
+            print("----")
+        }
+    }
+    
+    func downloadError(_ entry : ManifestEntry!, url : URL!, error : Error!)
+    {
+        sync(self)
+        {
+            print("error downloading \(url.path): \(error.localizedDescription)")
+            print("----")
+        }
+    }
+    
+    func unarchiveError(_ entry : ManifestEntry!, url : URL!, error : Error!)
+    {
+        sync(self)
+        {
+            print("error unarchiving \(url.path): \(error.localizedDescription)")
+            print("----")
+        }
+    }
+    
+    func conversionError(_ entry : ManifestEntry!, url : URL!, error : Error!)
+    {
+        sync(self)
+        {
+            print("error converting \(url.path): \(error.localizedDescription)")
+            print("----")
+        }
+    }
 }
 
