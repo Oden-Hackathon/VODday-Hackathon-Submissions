@@ -10,13 +10,12 @@ import UIKit
 import MapKit
 import CoreLocation
 import UserNotifications
+import TraceLog
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegate, CLLocationManagerDelegate {
-
     var window: UIWindow?
     let locationManager = CLLocationManager ()
-
     let downloader = ManifestDownloader()
     var manifest : [ManifestEntry]?
     
@@ -31,10 +30,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
             try downloader.download("oden-manifest", overwrite: true)
         }
         catch
-        {
-            print("error: \(error.localizedDescription)")
-        }
+    var requestDataReceiver: NSObjectProtocol?
 
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    {
+        requestDataReceiver = AppNotifications.addRequestDataObserver(object: nil)
+        {
+            (fileName) in
+            
+            logTrace { "enter RequestData receiver" }
+            self.requestData(fileName)
+            logTrace { "exit RequestData receiver" }
+        }
+        
         // Override point for customization after application launch.
         return true
     }
@@ -138,13 +146,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
     func conversionCompleted(_ entries : [ManifestEntry]!)
     {
         let convertedDatasetURLs = Manifest.getLocalDatasetFilesFor(entries)!
-        
-        convertedDatasetURLs.forEach
-        {
-            (convertedDatasetURL) in
 
-            print(convertedDatasetURL)
-        }
+        AppNotifications.postDataReceived(convertedDatasetURLs)
     }
     
     func downloadError(_ entry : ManifestEntry!, error: Error!)
@@ -180,6 +183,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
         {
             print("error converting \(url.path): \(error.localizedDescription)")
             print("----")
+        }
+    }
+    
+    func requestData(_ fileName : String!)
+    {
+        let downloader = ManifestDownloader()
+        
+        downloader.delegate = self
+        
+        do
+        {
+            try downloader.download(fileName, overwrite: true)
+        }
+        catch
+        {
+            print("error: \(error.localizedDescription)")
         }
     }
 }
