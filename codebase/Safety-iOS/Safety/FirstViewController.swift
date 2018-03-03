@@ -46,49 +46,61 @@ class FirstViewController: UIViewController {
             print(url.path)
         }
     }
-
+    
+    func helpAlert (title: String) {
+        let message = "Please call 911 if you haven't already, someone will be be helping you shortly"
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        let okayAction = UIAlertAction(title: "Okay", style: UIAlertActionStyle.default) {
+            (result : UIAlertAction) -> Void in
+            print("Okay")
+        }
+        
+        alertController.addAction(okayAction)
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     @IBAction func helpMe(_ sender: UIButton) {
-        // 1
+        
         let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .actionSheet)
         
-        // 2
         let overdoseAction = UIAlertAction(title: "Overdose", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Overdose")
+            self.helpAlert ()
         })
         
         let heartAttackAction = UIAlertAction(title: "Heart Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Heart Attack")
+            self.helpAlert ()
         })
-        
-        // asthma
-        // anaphylactic shock
         
         let asthmaAction = UIAlertAction(title: "Asthma Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Asthma Attack")
+            self.helpAlert ()
         })
         
         let anaphylacticAction = UIAlertAction(title: "Anaphylactic Attack", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Anaphylactic Attack")
+            self.helpAlert ()
         })
         
-        //
         let otherAction = UIAlertAction(title: "Other", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Other")
+            self.helpAlert ()
         })
         
-        //
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: {
             (alert: UIAlertAction!) -> Void in
             print("Cancelled")
+            self.helpAlert ()
         })
         
-        
-        // 4
+        // Option Menus
         optionMenu.addAction(overdoseAction)
         optionMenu.addAction(heartAttackAction)
         optionMenu.addAction(asthmaAction)
@@ -96,7 +108,7 @@ class FirstViewController: UIViewController {
         optionMenu.addAction(otherAction)
         optionMenu.addAction(cancelAction)
         
-        // 5
+        // Present
         self.present(optionMenu, animated: true, completion: nil)
     }
     
