@@ -35,7 +35,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.dataSource = self
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -117,4 +118,3 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     
     
 }
-
