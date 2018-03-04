@@ -31,8 +31,8 @@ function convert(data)
         feature.geometry      = {};
         feature.geometry.type = "Point";
         feature.geometry.coordinates = [
-            featuresJSON[0].geometry.coordinates[0],
-            featuresJSON[1].geometry.coordinates[1]
+            featuresJSON[i].geometry.coordinates[0],
+            featuresJSON[i].geometry.coordinates[1]
         ];
 
         properties.name       = featuresJSON[i].properties.Name;
