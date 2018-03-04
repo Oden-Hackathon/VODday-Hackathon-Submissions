@@ -12,9 +12,10 @@ import CoreLocation
 import UserNotifications
 import TraceLog
 import Firebase
+import FirebaseMessaging
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegate, CLLocationManagerDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegate, CLLocationManagerDelegate, UNUserNotificationCenterDelegate {
     var window: UIWindow?
     let locationManager = CLLocationManager ()
     let downloader = ManifestDownloader()
@@ -22,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
     var requestDataReceiver: NSObjectProtocol?
     
     private var startTime: Date? //An instance variable, will be used as a previous location time.
+    
+    static var fcmtoken:String? = ""
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -43,14 +46,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
             print (error)
         }
         */
+        
+        if #available(iOS 10.0, *) {
+            // For iOS 10 display notification (sent via APNS)
+            UNUserNotificationCenter.current().delegate = self
+            
+            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+            UNUserNotificationCenter.current().requestAuthorization(
+                options: authOptions,
+                completionHandler: {_, _ in })
+        } else {
+            let settings: UIUserNotificationSettings =
+                UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+            application.registerUserNotificationSettings(settings)
+        }
+        
+        application.registerForRemoteNotifications()
+        
         FirebaseApp.configure()
         
         // Override point for customization after application launch.
         return true
     }
     
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus)
-    {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         
         let viewController = self.window?.rootViewController
         
@@ -112,6 +131,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
             Location.startLocationUpdatesWhenInUse(caller: self.window?.rootViewController)
         }
         
+        /* if AppDelegate.fcmtoken == "" {
+            AppDelegate.fcmtoken = Messaging.messaging().fcmToken
+        } */
+        
+        // print ("FCMTOKEN \(AppDelegate.fcmtoken)")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -125,6 +149,96 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        var token = ""
+        for i in 0..<deviceToken.count {
+            token = token + String (format: "%02.2hhx", arguments: [deviceToken[i]])
+        }
+        print ("Registration succeeded! Token: ", token);
+    }
+    
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
+        print("Firebase registration token: \(fcmToken)")
+        AppDelegate.fcmtoken = fcmToken
+        print ("TOKEN : " + fcmToken)
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print ("Registration failed!")
+        print (error)
+    }
+    
+    
+    // Firebase notification received
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter,  willPresent notification: UNNotification, withCompletionHandler   completionHandler: @escaping (_ options:   UNNotificationPresentationOptions) -> Void) {
+        
+        // custom code to handle push while app is in the foreground
+        print("Handle push from foreground\(notification.request.content.userInfo)")
+        
+        let infoDict = notification.request.content.userInfo as! NSDictionary
+        
+        let dict = notification.request.content.userInfo["aps"] as! NSDictionary
+        
+        print(dict)
+        
+        let d : [String : Any] = dict["alert"] as! [String : Any]
+        var body : String = d["body"] as! String
+        let title : String = d["title"] as! String
+        
+        let alert = UIAlertController(title: title, message: body, preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Ignore", style: UIAlertActionStyle.cancel, handler: nil))
+        
+        let region = infoDict["gcm.notification.region"] as? String ?? "Unknown region"
+        
+        /*
+        if let latitude = infoDict["gcm.notification.latitude"] as? String, let longitude = infoDict["gcm.notification.longitude"] as? String {
+            body = "\(body) lat:\(latitude) long:\(longitude)"
+            
+            alert.addAction(UIAlertAction(title: "Show", style: UIAlertActionStyle.default, handler: { _ in
+                print("should direct to location now")
+                
+                // TODO finish this
+                
+                Notifications.post(messageName: "show_last_overdose", object: nil, userInfo: nil)
+                
+                
+            }))
+            
+            if let lat = Double(latitude), let long = Double(longitude) {
+                /*
+                self.overdoses.append(Overdose(region: region, reportedTime: Date(), coordinates: CLLocationCoordinate2D(latitude: lat, longitude:  long))) */
+                Notifications.post(messageName: "new_overdose", object: nil, userInfo: nil)
+            }
+            
+        } */
+        
+        print("Title:\(title) + body:\(body)")
+        //self.showAlertAppDelegate(title: title,message:body,buttonTitle:"OK",window:self.window!)
+        
+        
+        
+        self.window!.rootViewController?.present(alert, animated: false, completion: nil)
+        
+        
+    }
+    
+    @available(iOS 10.0, *)
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        // if you set a member variable in didReceiveRemoteNotification, you  will know if this is from closed or background
+        print("Handle push from background or closed\(response.notification.request.content.userInfo)")
+    }
+    
+    // For iOS 9+
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
+        if Auth.auth().canHandle(url) {
+            return true
+        }
+        // URL not auth related, developer should handle it
+        return false
     }
 
     func converted(_ entry: ManifestEntry, to convertedDatasetURL: URL!)

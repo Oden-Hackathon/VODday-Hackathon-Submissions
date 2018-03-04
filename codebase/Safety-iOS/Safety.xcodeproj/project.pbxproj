@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE85204B5F8A00391DD8 /* FeedAlertViewCell.swift */; };
 		5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE86204B5F8A00391DD8 /* FeedAlert.swift */; };
+		B984347D204B9EC4003AF710 /* HelpObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984347C204B9EC4003AF710 /* HelpObject.swift */; };
 		B990D255204B63E4005211EB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D254204B63E4005211EB /* Location.swift */; };
 		B990D257204B6474005211EB /* oden-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B990D256204B6474005211EB /* oden-manifest.json */; };
 		B990D259204B6C78005211EB /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D258204B6C78005211EB /* VCMapView.swift */; };
@@ -37,6 +38,8 @@
 		5481FE85204B5F8A00391DD8 /* FeedAlertViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedAlertViewCell.swift; sourceTree = "<group>"; };
 		5481FE86204B5F8A00391DD8 /* FeedAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedAlert.swift; sourceTree = "<group>"; };
 		726C045253CC989B51F27C46 /* Pods-Safety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig"; sourceTree = "<group>"; };
+		B984347B204B8C49003AF710 /* Safety.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safety.entitlements; sourceTree = "<group>"; };
+		B984347C204B9EC4003AF710 /* HelpObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpObject.swift; sourceTree = "<group>"; };
 		B990D254204B63E4005211EB /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B990D256204B6474005211EB /* oden-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "oden-manifest.json"; sourceTree = "<group>"; };
 		B990D258204B6C78005211EB /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
@@ -125,9 +128,11 @@
 		C7E9F3F2204B27B600E4D8A1 /* Safety */ = {
 			isa = PBXGroup;
 			children = (
+				B984347B204B8C49003AF710 /* Safety.entitlements */,
 				C7E9F3F3204B27B600E4D8A1 /* AppDelegate.swift */,
 				C7E9F3F5204B27B600E4D8A1 /* FirstViewController.swift */,
 				C7E9F3F7204B27B600E4D8A1 /* SecondViewController.swift */,
+				B984347C204B9EC4003AF710 /* HelpObject.swift */,
 				C7E9F3F9204B27B600E4D8A1 /* Main.storyboard */,
 				B990D258204B6C78005211EB /* VCMapView.swift */,
 				C7E9F3FC204B27B600E4D8A1 /* Assets.xcassets */,
@@ -183,6 +188,11 @@
 					C7E9F3EF204B27B600E4D8A1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -261,7 +271,9 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Safety/Pods-Safety-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/TraceLog/TraceLog.framework",
 				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -270,7 +282,9 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TraceLog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -303,6 +317,7 @@
 				C7B447BC204B444F00205598 /* ManifestDownloaderDelegate.swift in Sources */,
 				B990D259204B6C78005211EB /* VCMapView.swift in Sources */,
 				C738B55D204B836900C57A2D /* ViewControllerExtension.swift in Sources */,
+				B984347D204B9EC4003AF710 /* HelpObject.swift in Sources */,
 				C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */,
 				5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */,
 			);
@@ -444,6 +459,7 @@
 			baseConfigurationReference = FDA285BC303039220137BFBF /* Pods-Safety.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Safety/Safety.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9GR6R2227;
 				INFOPLIST_FILE = Safety/Info.plist;
@@ -461,6 +477,7 @@
 			baseConfigurationReference = 726C045253CC989B51F27C46 /* Pods-Safety.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Safety/Safety.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9GR6R2227;
 				INFOPLIST_FILE = Safety/Info.plist;
