@@ -10,6 +10,8 @@
 		5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE85204B5F8A00391DD8 /* FeedAlertViewCell.swift */; };
 		5481FE88204B5F8A00391DD8 /* FeedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481FE86204B5F8A00391DD8 /* FeedAlert.swift */; };
 		B984347D204B9EC4003AF710 /* HelpObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984347C204B9EC4003AF710 /* HelpObject.swift */; };
+		B984347F204BA5F4003AF710 /* PreventanylAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984347E204BA5F4003AF710 /* PreventanylAnnotation.swift */; };
+		B9843481204BA5FD003AF710 /* OverdoseAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9843480204BA5FD003AF710 /* OverdoseAnnotation.swift */; };
 		B990D255204B63E4005211EB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D254204B63E4005211EB /* Location.swift */; };
 		B990D257204B6474005211EB /* oden-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B990D256204B6474005211EB /* oden-manifest.json */; };
 		B990D259204B6C78005211EB /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D258204B6C78005211EB /* VCMapView.swift */; };
@@ -40,6 +42,8 @@
 		726C045253CC989B51F27C46 /* Pods-Safety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig"; sourceTree = "<group>"; };
 		B984347B204B8C49003AF710 /* Safety.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safety.entitlements; sourceTree = "<group>"; };
 		B984347C204B9EC4003AF710 /* HelpObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpObject.swift; sourceTree = "<group>"; };
+		B984347E204BA5F4003AF710 /* PreventanylAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventanylAnnotation.swift; sourceTree = "<group>"; };
+		B9843480204BA5FD003AF710 /* OverdoseAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverdoseAnnotation.swift; path = "/Users/yudhvirraj/Documents/Hackathons/OpenData/VODday-Hackathon-Submissions/codebase/Safety-iOS/Safety/OverdoseAnnotation.swift"; sourceTree = "<absolute>"; };
 		B990D254204B63E4005211EB /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B990D256204B6474005211EB /* oden-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "oden-manifest.json"; sourceTree = "<group>"; };
 		B990D258204B6C78005211EB /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 		C7E9F3F2204B27B600E4D8A1 /* Safety */ = {
 			isa = PBXGroup;
 			children = (
+				B9843480204BA5FD003AF710 /* OverdoseAnnotation.swift */,
+				B984347E204BA5F4003AF710 /* PreventanylAnnotation.swift */,
 				B984347B204B8C49003AF710 /* Safety.entitlements */,
 				C7E9F3F3204B27B600E4D8A1 /* AppDelegate.swift */,
 				C7E9F3F5204B27B600E4D8A1 /* FirstViewController.swift */,
@@ -307,9 +313,11 @@
 				C7B447BB204B444F00205598 /* ManifestDownloader.swift in Sources */,
 				C7B447B7204B444F00205598 /* Downloader.swift in Sources */,
 				C7E9F3F8204B27B600E4D8A1 /* SecondViewController.swift in Sources */,
+				B9843481204BA5FD003AF710 /* OverdoseAnnotation.swift in Sources */,
 				C7B447B8204B444F00205598 /* SyncUtils.swift in Sources */,
 				B990D255204B63E4005211EB /* Location.swift in Sources */,
 				C7E9F3F4204B27B600E4D8A1 /* AppDelegate.swift in Sources */,
+				B984347F204BA5F4003AF710 /* PreventanylAnnotation.swift in Sources */,
 				C7E9F3F6204B27B600E4D8A1 /* FirstViewController.swift in Sources */,
 				C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */,
 				5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */,

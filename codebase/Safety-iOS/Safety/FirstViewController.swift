@@ -21,6 +21,8 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
     var observer:  NSObjectProtocol?
     var centered: Bool = false
     var selfAnnotation: MKPointAnnotation?
+    
+    var overdoseMarkerMap : Dictionary<String, OverdoseAnnotation> = Dictionary<String, OverdoseAnnotation>()
 
     var onColor = UIColor.yellow
     var offColor = UIColor.darkGray
@@ -182,6 +184,149 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
             // print(annotation.title!)
         }
 
+    }
+    
+    func initHelpObjects () {
+        //overdoses = [Overdose]()
+        
+        // Listen for new staticKits in the Firebase database
+        // it is aysn.kits will be added one by one;
+        //
+        helpObjectRef.observe(.childAdded, with: {[weak self] (snapshot) -> Void in
+            
+            print("overDoses: childAdded")
+            
+            if let addedOverdose = HelpObject(From: snapshot) {
+                self?.addOverdose(addedOverdose)
+            } else {
+                
+                print("error! overdose from snapshot not parseable!")
+                print(snapshot)
+            }
+            
+            
+            // prolly wanna remove this after we refer to firebase db
+            
+            //            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            //
+            //            for overdose in appDelegate.overdoses {
+            //                self?.addOverdose(overdose)
+            //            }
+            //
+            
+            
+        })
+        
+        // Listen for deleted staticKits in the Firebase database
+        helpObjectRef.observe(.childRemoved, with: { [weak self] (snapshot) -> Void in
+            
+            print("overdoses childRemoved")
+            
+            guard let overdose = HelpObject(From: snapshot) else {
+                return
+            }
+            
+            let id: String = overdose.id
+            
+            if let marker = self?.overdoseMarkerMap[id] {
+                self?.overdoseMarkerMap.removeValue(forKey: id)
+                self?.MView.removeAnnotation(marker)
+            }
+            //            }
+            //
+            //    
+            //
+            //
+            //
+            //
+            //            self?.overdoseMarkerMap.removeValue(forKey: id)
+            //            if let index = self?.allStaticKits.index(where: {$0.userId == rmuid}) {
+            //                self?.allStaticKits.remove(at: index)
+            //            }
+        })
+        
+        
+        // Listen for deleted staticKits in the Firebase database
+        helpObjectRef.observe(.childChanged, with: { [weak self] (snapshot) -> Void in
+            
+            print("overdoses: childChanged")
+            
+            guard let overdose = HelpObject(From: snapshot) else {
+                return
+            }
+            
+            let id = overdose.id
+            
+            // remove
+            if let marker = self?.overdoseMarkerMap[id] {
+                self?.overdoseMarkerMap.removeValue(forKey: id)
+                self?.MView.removeAnnotation(marker)
+            }
+            
+            // add back
+            //self?.allStaticKits.append(addedskit)
+            
+            self?.addOverdose(overdose)
+            
+            //                print("start printing\n")
+            //                print(addedskit)
+            //                print("\(self?.allStaticKits.count ?? -1)")
+            
+            
+            
+            
+        })
+    }
+    
+    func addOverdose(_ addedOverdose: HelpObject) {
+        
+        let location = addedOverdose.coordinates
+        
+        DispatchQueue.main.async {
+            print("adding overdose from \(addedOverdose.region ?? "Unknown") to map")
+            
+            
+            //            let userCoordinate = self.selfAnnotation?.coordinate ?? CLLocationCoordinate2D(latitude: 49.205323, longitude: -122.930271)
+            //
+            //            let fakeOverdose1 = OverdoseAnnotation()
+            //            fakeOverdose1.coordinate = CLLocationCoordinate2D(latitude: userCoordinate.latitude + 0.07, longitude: userCoordinate.longitude + 0.04)
+            
+            let id = addedOverdose.id
+            
+            let overdose = OverdoseAnnotation()
+            overdose.coordinate = location
+            
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "h:mm a"
+            
+            let hhmm = dateFormatter.string(from: addedOverdose.reportedTime)
+            overdose.title = "Reported Overdose at (\(hhmm))"
+            
+            
+            self.overdoseMarkerMap[id] = overdose
+            self.MView.addAnnotation(overdose)
+        }
+        
+        //self.overdoses.append(addedOverdose)
+        //self?.addOverdose(addedOverdose)
+        
+        //                let time = addedOverdose.reportedTime
+        //
+        //                let title = "Reported Overdose at  "
+        //
+        //                let newMarker = Marker (title: addedOverdose.displayName,
+        //                                        locationName: "\(addedOverdose.address.streetAddress) \(addedOverdose.address.city)",
+        //                    discipline: "Overdose",
+        //                    coordinate: CLLocationCoordinate2D(latitude: addedOverdose.coordinates.lat, longitude: addedOverdose.coordinates.long))
+        //                self?.MapView.addAnnotation(newMarker)
+        //                self?.staticKitMarkerMap[id] = newMarker
+        //
+        //debug info
+        print("start printing\n")
+        print(addedOverdose)
+        //print("\(self.overdoses.count ?? -1)")
+        
+        
     }
     
     func helpAlert (title: String) {
