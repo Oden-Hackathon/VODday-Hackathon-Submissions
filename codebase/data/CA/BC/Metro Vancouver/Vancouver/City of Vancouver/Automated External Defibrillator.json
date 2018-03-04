@@ -1,5 +1,2061 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+  "type":"FeatureCollection",
+  "crs":{
+    "type":"name",
+    "properties":{
+      "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+
+    }
+  },
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Animal Control",
+        "description":"1280 Raymur Ave.",
+        "Phone":"311",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/home-property-development\/animal-control.aspx'>Animal Control<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=1280 Raymur Ave. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.08234,
+          49.273489,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Britannia Rink and Pool",
+        "description":"1661 Napier Street",
+        "Phone":"604-718-5800",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/britannia-community-services-centre.aspx'>Britannia Rink and Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=1661 Napier Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.070285,
+          49.275337,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Carnegie Community Centre",
+        "description":"401 Main St.",
+        "Phone":"604-665-2220",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/carnegie-community-centre.aspx'>Carnegie Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=401 Main St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.099817,
+          49.281239,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Champlain Heights Community Centre",
+        "description":"3350 Maquinna Drive",
+        "Phone":"604-718-6675",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/champlain-heights-community-centre.aspx'>Champlain Heights Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=3350 Maquinna Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.033657,
+          49.215999,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City Hall,Call Centre",
+        "description":"1800 Spyglass - 2nd floor by mens washroom",
+        "Phone":"311",
+        "<div align=\"left":"http:\/\/maps.google.com\/maps?daddr=1800 Spyglass - 2nd floor by mens washroom Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.115095,
+          49.270838,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City Hall,Crossroads Campus",
+        "description":"507 West Broadway - 5th Floor Reception",
+        "Phone":"311",
+        "<div align=":  "http:\/\/maps.google.com\/maps?daddr=507 West Broadway - 5th Floor Reception Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.115559,
+          49.263522,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City Hall,Main Campus",
+        "description":"453 West 12th Ave - Bolted to small bookshelf in main floor lobby next to waste bins",
+        "Phone":"311",
+        "<div align=":   "http:\/\/maps.google.com\/maps?daddr=453 West 12th Ave - Bolted to small bookshelf in main floor lobby next to waste bins Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.113936,
+          49.260966,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City Hall,Vancity Campus",
+        "description":"515 West 10th - 3rd Floor Reception\n",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=515 West 10th - 3rd Floor Reception\n Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.115273,
+          49.262435,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City of Vancouver",
+        "description":"900 Kent Ave South East",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=900 Kent Ave South East Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.086471,
+          49.207552,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City of Vancouver,Film and Events Office",
+        "description":"126 Keefer",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=126 Keefer Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.104446,
+          49.279593,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City of Vancouver,Stanley Yard",
+        "description":"605 Pipeline Road",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=605 Pipeline Road Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.135817,
+          49.299942,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"City of Vancouver,Sunset Service Yard",
+        "description":"290 East 51st Avenue",
+        "Phone":"311",
+        "<div align=": "fun",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.101699,
+          49.2241,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Coal Harbour Community Centre",
+        "description":"480 Broughton Street",
+        "Phone":"604-718-8222",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/coal-harbour-community-centre.aspx'>Coal Harbour Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=480 Broughton Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.125481,
+          49.290199,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Creekside Community Recreation Centre",
+        "description":"1 Athletes Way",
+        "Phone":"604-257-3050 ",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/creekside-community-recreation-centre.aspx'>Creekside Community Recreation Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=1 Athletes Way Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.105484,
+          49.271699,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Douglas Park Community Centre",
+        "description":"801 West 22nd Avenue",
+        "Phone":"604-257-8130",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/douglas-park-community-centre.aspx'>Douglas Park Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=801 West 22nd Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.122492,
+          49.25233,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Dunbar Community Centre",
+        "description":"4747 Dunbar Street",
+        "Phone":"604-222-6060",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/dunbar-community-centre.aspx'>Dunbar Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=4747 Dunbar Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.185851,
+          49.243718,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Evans Yard",
+        "description":"955 Evans Avenue",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=955 Evans Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.084319,
+          49.271545,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Evelyne Saller Centre",
+        "description":"320 Alexander",
+        "Phone":"604-665-3075",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/evelyne-saller-centre.aspx'>Evelyne Saller Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=320 Alexander Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.097211,
+          49.283998,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"False Creek Community Centre",
+        "description":"1318 Cartwright Street",
+        "Phone":"604-257-8195",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/false-creek-community-centre.aspx'>False Creek Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=1318 Cartwright Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.13424,
+          49.269537,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Fraserview Golf Course",
+        "description":"7800 Vivian Drive",
+        "Phone":"604-257-6923",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/fraserview-golf-course.aspx'>Fraserview Golf Course<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=7800 Vivian Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.052583,
+          49.21492,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Gathering Place Community Centre",
+        "description":"609 Helmcken St.",
+        "Phone":"604-665-2391",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/gathering-place-community-centre.aspx'>Gathering Place Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=609 Helmcken St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.123748,
+          49.27783,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Hastings Community Centre",
+        "description":"3096 East Hastings Street",
+        "Phone":"604-718-6222",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/hastings-community-centre.aspx'>Hastings Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=3096 East Hastings Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.039408,
+          49.280964,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Hillcrest Aquatic Centre",
+        "description":"4575 Clancy Loranger Way",
+        "Phone":"604-257-8680",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/hillcrest-aquatic-centre.aspx'>Hillcrest Aquatic Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=4575 Clancy Loranger Way Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.107686,
+          49.244206,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Hillcrest Rink",
+        "description":"4575 Clancy Loranger Way",
+        "Phone":"604-257-8680",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/hillcrest-rink.aspx'>Hillcrest Rink<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=4575 Clancy Loranger Way Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.107686,
+          49.244206,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Kensington Pool",
+        "description":"5175 Dumfries Street",
+        "Phone":"604-718-6200",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/kensington-pool.aspx'>Kensington Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=5175 Dumfries Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.074977,
+          49.237454,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Kerrisdale Cyclone Taylor Arena and Kerrisdale Pool",
+        "description":"5670 East Blvd",
+        "Phone":"604-257-8121",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/kerrisdale-pool.aspx'>Kerrisdale Cyclone Taylor Arena and Kerrisdale Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=5670 East Blvd Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.154604,
+          49.235347,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Killarney Rink and Pool",
+        "description":"6260 Killarney Street",
+        "Phone":" 604-718-5865",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/killarney-community-centre.aspx'>Killarney Rink and Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=6260 Killarney Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.043745,
+          49.226968,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Kitsilano Rink",
+        "description":"2690 Larch Street",
+        "Phone":"604-257-6976",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/kitsilano-rink.aspx'>Kitsilano Rink<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=2690 Larch Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.161986,
+          49.262123,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Langara Golf Course",
+        "description":"6706 Alberta Street",
+        "Phone":"604-713-1816",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/langara-golf-course.aspx'>Langara Golf Course<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=6706 Alberta Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.112707,
+          49.22417,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Langara Golf Course",
+        "description":"6706 Alberta Street",
+        "Phone":"604-873-7000",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/langara-golf-course.aspx'>Langara Golf Course<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=6706 Alberta Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.112386,
+          49.223797,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Lord Byng Pool",
+        "description":"3990 West 14th Avenue",
+        "Phone":"604-222-6090",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/lord-byng-pool.aspx'>Lord Byng Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=3990 West 14th Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.192973,
+          49.259377,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Manitoba Works Yard - Equipment Services Building",
+        "description":"250 W 70th Street",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=250 W 70th Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.113578,
+          49.209565,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Manitoba Works Yard - Main Administration Building",
+        "description":"250 W 70th Street",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=250 W 70th Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.111479,
+          49.208492,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Manitoba Works Yard - Transfer Station",
+        "description":"377 W Kent Ave N",
+        "Learn":"more about <a href='http:\/\/vancouver.ca\/home-property-development\/landfill-and-transfer-station.aspx'>Manitoba Works Yard - Transfer Station<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=377 W Kent Ave N Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.113896,
+          49.207192,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Marpole-Oakridge Community Centre",
+        "description":"990 West 59th Avenue",
+        "Phone":"604-257-8180",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/marpole-oakridge-community-centre.aspx'>Marpole-Oakridge Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=990 West 59th Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.128403,
+          49.21688,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"McCleery Gold Course",
+        "description":"7188 MacDonald Street",
+        "Phone":"604-257-8191",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/mccleery-golf-course.aspx'>McCleery Gold Course<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=7188 MacDonald Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.167875,
+          49.221381,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Mount Pleasant Community Centre",
+        "description":"#1 Kingsway",
+        "Phone":"604-257-3080",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/mount-pleasant-community-centre.aspx'>Mount Pleasant Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=#1 Kingsway Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.100197,
+          49.264528,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Mountain View Cemetery",
+        "description":"5455 Fraser St",
+        "Phone":"604-325-2646",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/your-government\/mountain-view-cemetery.aspx'>Mountain View Cemetery<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=5455 Fraser St Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.092851,
+          49.235,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Park Board offices",
+        "description":"2099 Beach Ave.",
+        "Phone":"311",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/your-government\/vancouver-board-of-parks-and-recreation.aspx'>Park Board offices<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=2099 Beach Ave. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.145393,
+          49.290916,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Planetarium \/ MoV",
+        "description":"1100 Chestnut Street",
+        "Learn":"more about <a href='http:\/\/www.spacecentre.ca\/'>Planetarium \/ MoV<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=1100 Chestnut Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.14616,
+          49.276359,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Queen Elizabeth Park Pitch & Putt",
+        "description":"Queen Elizabeth Park",
+        "Phone":"604-874-8336",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/queen-elizabeth-park.aspx'>Queen Elizabeth Park Pitch & Putt<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=Queen Elizabeth Park Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.111645,
+          49.238958,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Queen Elizabeth Theater",
+        "description":"649 Cambie St.",
+        "Phone":"604-665-3050",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/queen-elizabeth-theatre.aspx'>Queen Elizabeth Theater<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=649 Cambie St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.113153,
+          49.280201,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Ray-Cam Co-operative Centre",
+        "description":"920 East Hastings Street",
+        "Phone":"604-257-6949",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/ray-cam-co-operative-centre.aspx'>Ray-Cam Co-operative Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=920 East Hastings Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.083889,
+          49.281314,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Renfrew Pool",
+        "description":"2929 East 22nd Avenue",
+        "Phone":"604-257-8393",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/renfrew-pool.aspx'>Renfrew Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=2929 East 22nd Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.042724,
+          49.251247,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Stanley Park Pitch & Putt",
+        "description":"Lagoon Drive",
+        "Phone":"604-681-8847",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/stanley-park-pitch-putt.aspx'>Stanley Park Pitch & Putt<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=Lagoon Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.146611,
+          49.293046,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Strathcona Community Centre",
+        "description":"601 Keefer Street",
+        "Phone":"604-713-1838",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/strathcona-community-centre.aspx'>Strathcona Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=601 Keefer Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.091593,
+          49.279677,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Sunset Community Centre",
+        "description":"6810 Main Street",
+        "Phone":"604-718-6505",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/sunset-community-centre.aspx'>Sunset Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=6810 Main Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.101592,
+          49.223105,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Sunset Rink",
+        "description":"390 E 51st Avenue",
+        "Phone":"604-718-6517",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/sunset-rink.aspx'>Sunset Rink<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=390 E 51st Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.098202,
+          49.223399,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Templeton Park Pool",
+        "description":"700 Templeton Drive",
+        "Phone":"604-718-6252",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/templeton-pool.aspx'>Templeton Park Pool<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=700 Templeton Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.059359,
+          49.27842,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"The Orpheum",
+        "description":"884 Granville St.",
+        "Phone":"604-665-3050",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/the-orpheum.aspx'>The Orpheum<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=884 Granville St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.120561,
+          49.280194,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"The Roundhouse",
+        "description":"181 Roundhouse Mews",
+        "Phone":"604-713-1800",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/roundhouse-community-arts-recreation-centre.aspx'>The Roundhouse<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=181 Roundhouse Mews Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.12142,
+          49.273471,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Thunderbird Community Centre",
+        "description":"2311 Cassiar Street",
+        "Phone":"604-713-1818",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/thunderbird-community-centre.aspx'>Thunderbird Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=2311 Cassiar Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.031254,
+          49.263954,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Trout Lake Rink",
+        "description":"3360 Victoria Drive",
+        "Phone":"604-718-5865",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/trout-lake-rink.aspx'>Trout Lake Rink<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=3360 Victoria Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.065415,
+          49.255393,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"VanDusen Botanical Garden",
+        "description":"5251 Oak Street",
+        "Phone":"604-257-8335",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/langara-golf-course.aspx'>VanDusen Botanical Garden<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=5251 Oak Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.12865,
+          49.238883,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Aquatic Centre",
+        "description":"1050 Beach Avenue",
+        "Phone":"604-665-3424",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/vancouver-aquatic-centre.aspx'>Vancouver Aquatic Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=1050 Beach Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.135343,
+          49.276901,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Fire and Rescue Headquarters",
+        "description":"900 Heatley Ave.",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=900 Heatley Ave. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.089459,
+          49.276016,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Fire and Rescue Training Facility",
+        "description":"1330 Chess St.",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=1330 Chess St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.086293,
+          49.272971,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Landfill",
+        "description":"5400 72nd St",
+        "Phone":"311",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/home-property-development\/landfill-and-transfer-station.aspx'>Vancouver Landfill<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=5400 72nd St,Delta Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.02135,
+          49.098182,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Parking Enforcement Office",
+        "description":"1125 Howe - 7th floor",
+        "Phone":"311",
+        "<div align=": "http:\/\/maps.google.com\/maps?daddr=1125 Howe - 7th floor Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.126017,
+          49.278907,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Police Department",
+        "description":"2010 Glen Drive",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=2010 Glen Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.081379,
+          49.266866,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Central Branch",
+        "description":"350 West Georgia Street",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=350 West Georgia Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.11466,
+          49.280404,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Champlain Heights Branch",
+        "description":"7110 Kerr St.",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/champlain_heights_branch'>Vancouver Public Library,Champlain Heights Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=7110 Kerr St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.03951,
+          49.21916,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Collingwood Branch",
+        "description":"2985 Kingsway",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/collingwood_branch'>Vancouver Public Library,Collingwood Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=2985 Kingsway Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.042702,
+          49.236155,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Dunbar Branch",
+        "description":"4515 Dunbar St.",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/dunbar_branch'>Vancouver Public Library,Dunbar Branch<\/a>",
+        "<div align=\"left\">": "<a href='http:\/\/maps.google.com\/maps?daddr=4515 Dunbar St. Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.185448,
+          49.246061,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Fraserview Branch",
+        "description":"1950 Argyle Drive",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/fraserview_branch'>Vancouver Public Library,Fraserview Branch<\/a>",
+        "<div align=\"left\">": "<a href='http:\/\/maps.google.com\/maps?daddr=1950 Argyle Drive Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.06693,
+          49.219815,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Hasting Branch",
+        "description":"2674 East Hastings Street",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/hastings_branch'>Vancouver Public Library,Hasting Branch<\/a>",
+        "<div align=\"left\">": " href='http:\/\/maps.google.com\/maps?daddr=2674 East Hastings Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.050133,
+          49.281106,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Joe Fortes Branch",
+        "description":"870 Denman Street",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/joe_fortes_branch'>Vancouver Public Library,Joe Fortes Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=870 Denman Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.136822,
+          49.290505,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Kensington Branch",
+        "description":"1428 Cedar Cottage Mews",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/kensington_branch'>Vancouver Public Library,Kensington Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=1428 Cedar Cottage Mews Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.075551,
+          49.249276,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Kerrisdale Branch",
+        "description":"2112 West 42 Avenue",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/kerrisdale_branch'>Vancouver Public Library,Kerrisdale Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=2112 West 42 Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.156108,
+          49.23358,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Kitsilano Branch",
+        "description":"2425 MacDonald Street",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/kitsilano_branch'>Vancouver Public Library,Kitsilano Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=2425 MacDonald Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.168554,
+          49.264761,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Marpole Branch",
+        "description":"8386 Granville Street",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/marpole_branch'>Vancouver Public Library,Marpole Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=8386 Granville Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.140342,
+          49.210292,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Mount Pleasant Branch",
+        "description":"1 Kingsway",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/mount_pleasant_branch'>Vancouver Public Library,Mount Pleasant Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=1 Kingsway Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.10036,
+          49.264092,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Renfrew Branch",
+        "description":"2969 East 22nd Avenue",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/renfrew_branch'>Vancouver Public Library,Renfrew Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=2969 East 22nd Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.042132,
+          49.250802,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,South Hill Branch",
+        "description":"6076 Fraser Street",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/south_hill_branch'>Vancouver Public Library,South Hill Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=6076 Fraser Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.090574,
+          49.229563,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,Strathcona Branch",
+        "description":"592 East Pender Street",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/strathcona_branch'>Vancouver Public Library,Strathcona Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=592 East Pender Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.091747,
+          49.280218,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Vancouver Public Library,West Point Grey Branch",
+        "description":"4480 West 10th Avenue",
+        "Learn":"more about <a href='https:\/\/www.vpl.ca\/branches\/details\/west_point_grey_branch'>Vancouver Public Library,West Point Grey Branch<\/a>",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=4480 West 10th Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.208535,
+          49.263763,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"West End Rink",
+        "description":"870 Denman Street",
+        "Phone":"604-257-8333",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/west-end-rink.aspx'>West End Rink<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=870 Denman Street Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.136403,
+          49.290265,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"West Point Grey Community Centre",
+        "description":"4397 West 2nd Avenue",
+        "Phone":"604-257-8140",
+        "Learn":            "more about <a href='http:\/\/vancouver.ca\/parks-recreation-culture\/west-point-grey-community-centre.aspx'>West Point Grey Community Centre<\/a>\n<div align=\"left\"><a href='http:\/\/maps.google.com\/maps?daddr=4397 West 2nd Avenue Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.203044,
+          49.271655,
+          0.0
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "Name":"Woodwards",
+        "description":"555 West Hastings - 5th Floor",
+        "<div align=": "<a href='http:\/\/maps.google.com\/maps?daddr=555 West Hastings - 5th Floor Vancouver BC'>",
+        "timestamp":null,
+        "begin":null,
+        "end":null,
+        "altitudeMode":null,
+        "tessellate":-1,
+        "extrude":0,
+        "visibility":-1,
+        "drawOrder":null,
+        "icon":null
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -123.107767,
+          49.28221,
+          0.0
+        ]
+      }
+    }
   ]
 }
