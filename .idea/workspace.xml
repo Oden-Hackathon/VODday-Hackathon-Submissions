@@ -2,20 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5a2828-09f7-431c-95c1-5ce31447fae1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Fire Stations.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Hospitals.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Police Stations.csv" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Fire Stations.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Hospitals.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Police Stations.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Ambulance Stations-JSON-JSON.js" afterPath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Ambulance Stations-JSON-JSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Fire Stations-JSON-JSON.js" afterPath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Fire Stations-JSON-JSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Hospitals-JSON-JSON.js" afterPath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Hospitals-JSON-JSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Naloxone Kits-JSON-JSON.js" afterPath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Naloxone Kits-JSON-JSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Police Stations-JSON-JSON.js" afterPath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Police Stations-JSON-JSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Ambulance Stations.json" afterPath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Ambulance Stations.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Naloxone Kits.json" afterPath="$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Naloxone Kits.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseNanoPB.framework/FirebaseNanoPB" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/FirebaseCore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/FirebaseDatabase" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/FirebaseInstanceID" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/alert.imageset/high_priority.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/alert.imageset/high_priority@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/alert.imageset/high_priority@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/ambulance.imageset/delivery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/ambulance.imageset/delivery@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/ambulance.imageset/delivery@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/health.imageset/health_sources.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/health.imageset/health_sources@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/health.imageset/health_sources@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/heart.imageset/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/heart.imageset/heart@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/heart.imageset/heart@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/key.imageset/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/key.imageset/key@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/key.imageset/key@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/layers.imageset/layers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/layers.imageset/layers@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/layers.imageset/layers@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/list.imageset/for_you.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/list.imageset/for_you@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/list.imageset/for_you@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/map.imageset/map_marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/map.imageset/map_marker@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/map.imageset/map_marker@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/medical.imageset/medical_ID.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/medical.imageset/medical_ID@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/medical.imageset/medical_ID@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/needle.imageset/icons8-syringe-filled-50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/needle.imageset/icons8-syringe-filled-51.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/needle.imageset/icons8-syringe-filled-52.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/question.imageset/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/question.imageset/help@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/question.imageset/help@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/timer.imageset/timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/timer.imageset/timer@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/timer.imageset/timer@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Firebase/Core/Sources/Firebase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Firebase/Core/Sources/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Firebase/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseAnalytics/Frameworks/FirebaseCoreDiagnostics.framework/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseInstanceID/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/FirebaseInstanceID/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/GoogleToolboxForMac/GTMDefines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/GoogleToolboxForMac/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/GoogleToolboxForMac/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Headers/Private/Firebase/Firebase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Headers/Public/Firebase/Firebase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/GoogleToolboxForMac/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/leveldb-library/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/leveldb-library/leveldb-library-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/leveldb-library/leveldb-library-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/leveldb-library/leveldb-library.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/leveldb-library/leveldb-library.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/nanopb/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/nanopb/nanopb-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/nanopb/nanopb-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/nanopb/nanopb-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/nanopb/nanopb.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/nanopb/nanopb.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/builder.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/builder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/c.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/db_impl.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/db_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/db_iter.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/db_iter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/dbformat.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/dbformat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/dumpfile.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/filename.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/filename.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/log_format.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/log_reader.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/log_reader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/log_writer.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/log_writer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/memtable.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/memtable.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/repair.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/skiplist.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/snapshot.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/table_cache.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/table_cache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/version_edit.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/version_edit.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/version_set.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/version_set.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/write_batch.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/db/write_batch_internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/c.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/cache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/comparator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/db.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/dumpfile.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/env.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/filter_policy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/iterator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/options.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/slice.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/status.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/table.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/table_builder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/include/leveldb/write_batch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/atomic_pointer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/port.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/port_example.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/port_posix.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/port_posix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/port_posix_sse.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/port/thread_annotations.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/block.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/block.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/block_builder.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/block_builder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/filter_block.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/filter_block.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/format.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/format.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/iterator.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/iterator_wrapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/merger.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/merger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/table.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/table_builder.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/two_level_iterator.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/table/two_level_iterator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/arena.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/arena.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/bloom.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/cache.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/coding.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/coding.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/comparator.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/crc32c.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/crc32c.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/env.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/env_posix.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/env_posix_test_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/filter_policy.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/hash.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/hash.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/histogram.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/histogram.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/logging.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/logging.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/mutexlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/options.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/posix_logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/random.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/status.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/testharness.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/testharness.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/testutil.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/leveldb-library/util/testutil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb_common.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb_common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb_decode.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb_decode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb_encode.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/nanopb/pb_encode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/alert.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/ambulance.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/health.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/heart.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/key.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/layers.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/list.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/medical.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/needle.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/question.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/timer.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/AutomatedExternalDefibrillator.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/GoogleService-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/ViewControllerExtension.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Podfile" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Podfile.lock" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/EVReflection/EVReflection.xcconfig" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/EVReflection/EVReflection.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety-acknowledgements.markdown" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety-acknowledgements.plist" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety-frameworks.sh" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety-frameworks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety.debug.xcconfig" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/Pods-Safety/Pods-Safety.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/TraceLog/TraceLog.xcconfig" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/TraceLog/TraceLog.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/ZIPFoundation/ZIPFoundation.xcconfig" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Pods/Target Support Files/ZIPFoundation/ZIPFoundation.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/AppDelegate.swift" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/AppNotifications.swift" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/AppNotifications.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/map.imageset/Contents.json" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Assets.xcassets/map.imageset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/FeedAlert.swift" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/FeedAlert.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/FeedAlertViewCell.swift" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/FeedAlertViewCell.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/FirstViewController.swift" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/FirstViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/SecondViewController.swift" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/SecondViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/oden-manifest.json" afterPath="$PROJECT_DIR$/codebase/Safety-iOS/Safety/oden-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/.idea/workspace.xml" afterPath="$PROJECT_DIR$/codebase/converters/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Automated External Defibrillator-JSON-JSON.js" afterPath="$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Automated External Defibrillator-JSON-JSON.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codebase/data/.idea/workspace.xml" afterPath="$PROJECT_DIR$/codebase/data/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +270,7 @@
               <entry file="file://$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Fire Stations.csv">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="340">
-                    <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+                    <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
                     <folding />
                   </state>
                 </provider>
@@ -70,7 +307,7 @@
         <entry file="file://$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Police Stations-JSON-JSON.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -90,7 +327,7 @@
         <entry file="file://$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Ambulance Stations.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="428" column="7" lean-forward="true" selection-start-line="428" selection-start-column="7" selection-end-line="428" selection-end-column="7" />
+              <caret line="428" column="7" lean-forward="false" selection-start-line="428" selection-start-column="7" selection-end-line="428" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -100,7 +337,7 @@
         <entry file="file://$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Hospitals-JSON-JSON.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -120,7 +357,7 @@
         <entry file="file://$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Automated External Defibrillator-JSON-JSON.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -356,16 +593,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520122012910</updated>
-      <workItem from="1520122014195" duration="6067000" />
+      <workItem from="1520122014195" duration="6272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6067000" />
+    <option name="totallyTimeSpent" value="6272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -432,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Automated External Defibrillator-JSON-JSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -448,7 +684,7 @@
     <entry file="file://$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Hospitals-JSON-JSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -464,7 +700,7 @@
     <entry file="file://$PROJECT_DIR$/codebase/converters/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Police Stations-JSON-JSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -488,7 +724,7 @@
     <entry file="file://$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Ambulance Stations.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="428" column="7" lean-forward="true" selection-start-line="428" selection-start-column="7" selection-end-line="428" selection-end-column="7" />
+          <caret line="428" column="7" lean-forward="false" selection-start-line="428" selection-start-column="7" selection-end-line="428" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -496,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/codebase/data/CA/BC/Metro Vancouver/Vancouver/City of Vancouver/Fire Stations.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding />
         </state>
       </provider>
