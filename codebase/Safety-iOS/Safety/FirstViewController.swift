@@ -25,10 +25,10 @@ class FirstViewController: UIViewController {
         
         receivedDataReceiver = AppNotifications.addDataReceivedObserver(object: nil)
         {
-            (urls) in
+            (url, type) in
             
             logTrace { "enter DataReceived receiver" }
-            self.receivedData(urls)
+            self.receivedData(url, type: type)
             logTrace { "exit DataReceived receiver" }
         }
         
@@ -94,22 +94,17 @@ class FirstViewController: UIViewController {
         MView.setRegion (coordinateRadius, animated:true)
     }
 
-    private func receivedData(_ urls : [URL]!)
+    private func receivedData(_ url : URL!, type: String!)
     {
-        urls.forEach
+        do
         {
-            (url) in
-
-            do
-            {
-                let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
-
-                plotPoints(locations)
-            }
-            catch
-            {
-                print("\(url.path) \(error.localizedDescription)")
-            }
+            let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
+            print(type)
+            plotPoints(locations)
+        }
+        catch
+        {
+            print("\(url.path) \(error.localizedDescription)")
         }
     }
     
@@ -126,7 +121,6 @@ class FirstViewController: UIViewController {
             annotation.coordinate = coordinate
             annotation.title      = feature.properties!.name!
             self.MView.addAnnotation(annotation)
-            
             print(annotation.title!)
         }
     }

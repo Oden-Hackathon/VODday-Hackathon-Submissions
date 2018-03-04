@@ -13,7 +13,7 @@ function convert(data)
     converted.type     = "FeatureCollection";
     converted.features = [];
 
-    var lines = data.split('\r\n');
+    var lines = data.split('\n');
 
     // Skip first line, it is titles
     for(var i = 1;i < lines.length;i++)
