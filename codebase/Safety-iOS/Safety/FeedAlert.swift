@@ -29,4 +29,5 @@ struct FeedAlert {
     var timestamp: Int
     var location: CLLocation
     var type: AlertType
+    var message: String
 }
