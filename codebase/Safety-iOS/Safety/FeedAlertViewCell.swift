@@ -14,6 +14,8 @@ class FeedAlertViewCell: UITableViewCell {
     @IBOutlet var alertTitleLabel: UILabel!
     @IBOutlet var timeLabel: UILabel!
     
+    @IBOutlet var messageLabel: UILabel!
+    
     
 
     /*

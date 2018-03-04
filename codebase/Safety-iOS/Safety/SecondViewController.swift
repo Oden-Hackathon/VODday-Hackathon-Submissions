@@ -21,8 +21,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         //let newFeedAlert = FeedAlert(timestamp: 0)
         
         
-        _feed.append(FeedAlert(timestamp: 1520115759, location: CLLocation(), type: FeedAlert.AlertType.accident))
-        _feed.append(FeedAlert(timestamp: 1520115459, location: CLLocation(), type: FeedAlert.AlertType.fire))
+        _feed.append(FeedAlert(timestamp: 1520115759, location: CLLocation(), type: FeedAlert.AlertType.accident, message: "Highway closed at Boundary Rd."))
+        _feed.append(FeedAlert(timestamp: 1520115459, location: CLLocation(), type: FeedAlert.AlertType.fire,     message: "Fire at 304 Beta Ave."))
 
         
         return _feed
@@ -33,6 +33,10 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.delegate = self
         tableView.dataSource = self
+
+//        self.tableView.rowHeight = 140
+
+
     }
 
     override func didReceiveMemoryWarning()
@@ -45,11 +49,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         return feedAlerts.count
     }
     
-    
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
+
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -93,16 +93,42 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
 
         let date = Date(timeIntervalSince1970: Double(feedAlerts[indexPath.row].timestamp))
 
-        let components = calendar.dateComponents([.day, .month, .year, .hour, .minute], from: date)
+
+
+
+        let dateFormatter = DateFormatter()
+        //let df = dateFormatter.timeSince(from: date, numericDates: true)
+
+
+
+        //dateFormatter.timeSince(from: Date.init(timeInterval: 600, since: date), numericDates: true)  // 9 minutes ago
+
+
+        let gregorian = NSCalendar(calendarIdentifier: NSCalendar.Identifier.gregorian)
+
+
+        let components = gregorian?.components([.day, .month, .year, .hour, .minute], from: date, to: Date(), options: .matchFirst)
+
+
+
+
+        //let components = calendar.dateComponents([.day, .month, .year, .hour, .minute], from: date, to: Date())
 
 //        let components = calendar.components([ .Minute, .Hour, .Day ],
 //                fromDate: , toDate: Date(), options: [])
 
-        let minute = components.minute
-        let hour = components.hour
-        let day = components.day
+        let minute = components!.minute ?? 0
+        let hour = components!.hour ?? 0
+        let day = components!.day ?? 0
 
-        cell.timeLabel.text = "\(minute ?? 0) min ago"
+        var text = ""
+        if(hour > 0) {
+            text += "\(hour)h, "
+        }
+
+        cell.timeLabel.text = "\(text) \(minute ?? 0) min ago"
+
+        cell.messageLabel.text = feedAlerts[indexPath.row].message
 
 
 
@@ -113,6 +139,12 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         
         
     }
+
+    
+//    override func tableView(_ tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
+//    {
+//        return 85 //Your custom row height
+//    }
 
     
     
