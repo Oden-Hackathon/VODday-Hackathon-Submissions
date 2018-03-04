@@ -1,5 +1,4176 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+  "name":"Drinking Fountains",
+  "type":"FeatureCollection",
+  "crs":{
+    "type":"name",
+    "properties":{
+      "name":"EPSG:26910"
+    }
+  },
+  "features":[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          498017.093693596,
+          5453586.31539583
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0001",
+        "NAME":"Fountain location:\nAberdeen Park",
+        "LOCATION":"plaza",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Aberdeen Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          498245.17358667,
+          5458134.41756872
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0002",
+        "NAME":"Fountain location:\nAdanac Park",
+        "LOCATION":"SW side of Field house",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489645.860550449,
+          5459221.81728467
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0003",
+        "NAME":"Fountain location:\nAlexandra Park",
+        "LOCATION":"west plaza gateway",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Alexandra Park - drinking fountain - 2003.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486558.093470383,
+          5456496.52212734
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0004",
+        "NAME":"Fountain location:\nAlmond Park",
+        "LOCATION":"S-side of playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492277.261080437,
+          5458467.85105989
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0005",
+        "NAME":"Fountain location:\nAndy Livingstone Park - North of basketball court",
+        "LOCATION":"by amphitheatre steps near bas",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492467.619439972,
+          5458371.97820105
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0006",
+        "NAME":"Fountain location:\nAndy Livingstone Park - South of soccer fields",
+        "LOCATION":"north side of fieldhouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488700.47916033,
+          5456619.33308844
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0007",
+        "NAME":"Fountain location:\nArbutus Greenway Park",
+        "LOCATION":"S-side of playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Arbutus Greenway Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488502.870696024,
+          5455124.57739376
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0008",
+        "NAME":"Fountain location:\nArbutus Village Park",
+        "LOCATION":"S-side of playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491206.068363647,
+          5459259.6791236
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0009",
+        "NAME":"Fountain location:\nArt Phillips Park (Discovery Square)",
+        "LOCATION":"NW plaza",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Discovery Square - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487239.309916703,
+          5454786.61614345
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0010",
+        "NAME":"Fountain location:\nBalaclava Park",
+        "LOCATION":"W of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496357.551060172,
+          5455837.73525396
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0011",
+        "NAME":"Fountain location:\nBeaconsfield Park",
+        "LOCATION":"adjacent to field house",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Beaconsfield Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495915.042851195,
+          5451427.84529516
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0012",
+        "NAME":"Fountain location:\nBobolink Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495181.222192886,
+          5454978.05244907
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0132",
+        "NAME":"Fountain location:\nBrewers Park",
+        "LOCATION":"S-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496330.191422108,
+          5459753.7079195
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0013",
+        "NAME":"Fountain location:\nBurrard View Park",
+        "LOCATION":"N-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492596.201367525,
+          5459116.96433856
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0030",
+        "NAME":"Fountain location:\nCRAB Park at Portside",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487448.009147643,
+          5456043.72476158
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0014",
+        "NAME":"Fountain location:\nCarnarvon Park",
+        "LOCATION":"S-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486050.727465481,
+          5455230.96688272
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0016",
+        "NAME":"Fountain location:\nChaldecott Park",
+        "LOCATION":"W-side of spray park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490841.897280607,
+          5457269.49479721
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0017",
+        "NAME":"Fountain location:\nCharleson Park",
+        "LOCATION":"N of school off of seawall",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493952.73236673,
+          5456860.52781904
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0018",
+        "NAME":"Fountain location:\nChina Creek North Park",
+        "LOCATION":"S central side along jogging c",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494248.74554328,
+          5456556.93120247
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0019",
+        "NAME":"Fountain location:\nChina Creek South Park",
+        "LOCATION":"S-side of skate park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494681.425015904,
+          5456011.97235077
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0020",
+        "NAME":"Fountain location:\nClark Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496353.894205753,
+          5457561.80413608
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0021",
+        "NAME":"Fountain location:\nClinton Park - East side of wading pool",
+        "LOCATION":"E-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Clinton Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496241.255529809,
+          5457626.58250281
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0022",
+        "NAME":"Fountain location:\nClinton Park - North side of ball diamond",
+        "LOCATION":"N-side of B-ball diamond",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490883.470380475,
+          5459699.56190642
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0023",
+        "NAME":"Fountain location:\nCoal Harbour Park",
+        "LOCATION":"near playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497352.844735385,
+          5453808.82729934
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0024",
+        "NAME":"Fountain location:\nCollingwood Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491774.058415675,
+          5453245.01839412
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0025",
+        "NAME":"Fountain location:\nColumbia Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Columbia Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488408.310448236,
+          5456702.31999339
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0027",
+        "NAME":"Fountain location:\nConnaught Park - East side of fieldhouse",
+        "LOCATION":"near fieldhouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round",
+        "PHOTO_NAME":"Connaught Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488255.695509912,
+          5456580.19751774
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0026",
+        "NAME":"Fountain location:\nConnaught Park - North of playground",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491777.257273419,
+          5457912.44321363
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0028",
+        "NAME":"Fountain location:\nCoopers' Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491661.283002748,
+          5457800.26626987
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0029",
+        "NAME":"Fountain location:\nCoopers' Park - underneath bridge, near basket",
+        "LOCATION":"underneath bridge, near basket",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Coopers Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492508.219264352,
+          5457961.97493597
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0031",
+        "NAME":"Fountain location:\nCreekside Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490855.734771827,
+          5457671.918338
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0032",
+        "NAME":"Fountain location:\nDavid Lam Park - South west of basketball courts",
+        "LOCATION":"near playground and tennis court",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491032.714257831,
+          5457756.34094806
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0033",
+        "NAME":"Fountain location:\nDavid Lam Park - South west of playgrounds",
+        "LOCATION":"E area, near playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490112.52618607,
+          5460269.43587038
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0034",
+        "NAME":"Fountain location:\nDevonian Harbour Park",
+        "LOCATION":"near Stanley Park entrance",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491086.275111987,
+          5455481.87850254
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0036",
+        "NAME":"Fountain location:\nDouglas Park (community centre)",
+        "LOCATION":"exterior of building",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Douglas Park - drinking fountain 2 - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491099.945671157,
+          5455610.03849086
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0035",
+        "NAME":"Fountain location:\nDouglas Park - Right side of wading pool",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Douglas Park - drinking fountain 1 - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490324.199606579,
+          5450310.31825913
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0037",
+        "NAME":"Fountain location:\nEbisu Park",
+        "LOCATION":"near playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Ebisu Park - drinking fountain - 2008.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488105.49019351,
+          5453436.15247338
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0038",
+        "NAME":"Fountain location:\nElm Park",
+        "LOCATION":"N-side of field house",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490996.67110845,
+          5458267.46283424
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0039",
+        "NAME":"Fountain location:\nEmery Barnes Park - Dog off-leash area",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490961.238078017,
+          5458216.92594622
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0040",
+        "NAME":"Fountain location:\nEmery Barnes Park - South west of playground",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489633.088921022,
+          5459429.17982927
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0041",
+        "NAME":"Fountain location:\nEnglish Bay Beach Park - Davie st entrance",
+        "LOCATION":"Davie st entrance",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"English Bay Park - drinking fountain - 2005.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489599.198834031,
+          5459274.49035359
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0042",
+        "NAME":"Fountain location:\nEnglish Bay Beach Park - West of bath-house",
+        "LOCATION":"opposite entrance to bathhouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round",
+        "PHOTO_NAME":"English Bay Park - drinking fountain - 2005.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489968.639565623,
+          5458481.54910555
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0043",
+        "NAME":"Fountain location:\nEnglish Bay Beach Park - concessions",
+        "LOCATION":"concessions",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497819.598810004,
+          5455798.16340456
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0044",
+        "NAME":"Fountain location:\nFalaise Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489016.262974448,
+          5450425.49661771
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0045",
+        "NAME":"Fountain location:\nFraser River Park - South west ",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Fraser River Park - drinking fountain - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489123.566648574,
+          5450504.21603488
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0046",
+        "NAME":"Fountain location:\nFraser River Park - park entrance by Angus Dr",
+        "LOCATION":"near park entrance by Angus Dr",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Fraser River Park - drinking fountain - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496672.822656097,
+          5450614.62651507
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0049",
+        "NAME":"Fountain location:\nFraserview Golf Course - 6th tee",
+        "LOCATION":"6th tee",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496921.536252469,
+          5450957.51343182
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0047",
+        "NAME":"Fountain location:\nFraserview Golf Course - West of kerr st. ",
+        "LOCATION":" West of kerr st. ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496248.031876634,
+          5451251.25689306
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0048",
+        "NAME":"Fountain location:\nFraserview Golf Course - clubhouse building ",
+        "LOCATION":"clubhouse building ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496257.96554562,
+          5451079.75663917
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0050",
+        "NAME":"Fountain location:\nFraserview Golf Course - driving range ",
+        "LOCATION":"driving range ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495750.561326155,
+          5457305.42747874
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0051",
+        "NAME":"Fountain location:\nGarden Park",
+        "LOCATION":"N-side of field house",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497714.543488313,
+          5453758.86044869
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0052",
+        "NAME":"Fountain location:\nGaston Park",
+        "LOCATION":"near basketball court",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Gaston Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493183.977779087,
+          5451085.4674077
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0053",
+        "NAME":"Fountain location:\nGeorge Park",
+        "LOCATION":"southeast corner of park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"George Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490559.480041473,
+          5457691.3181086
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0054",
+        "NAME":"Fountain location:\nGeorge Wainborn Park",
+        "LOCATION":"NE corner near seawall",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494918.921736099,
+          5457901.24409561
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0056",
+        "NAME":"Fountain location:\nGrandview Park - South of playground",
+        "LOCATION":"By the Playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494850.284813656,
+          5457882.40614553
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0055",
+        "NAME":"Fountain location:\nGrandview Park - West of Stage",
+        "LOCATION":"Close to the Stage",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489979.27205995,
+          5457172.66558356
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0057",
+        "NAME":"Fountain location:\nGranville Loop Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493814.48115628,
+          5454259.79866747
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0058",
+        "NAME":"Fountain location:\nGrays Park",
+        "LOCATION":"front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493047.566991867,
+          5456844.69846325
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0059",
+        "NAME":"Fountain location:\nGuelph Park",
+        "LOCATION":"w-side of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491151.893648109,
+          5459713.57591529
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0062",
+        "NAME":"Fountain location:\nHarbour Green Park - In front of washrooms",
+        "LOCATION":"near spray pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491037.513975271,
+          5459850.17099452
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0060",
+        "NAME":"Fountain location:\nHarbour Green Park - Viewpoint",
+        "LOCATION":"west, by seawall",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491043.93338191,
+          5459773.56198961
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0061",
+        "NAME":"Fountain location:\nHarbour Green Park - foot of Jervis Mews",
+        "LOCATION":"foot of Jervis Mews",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497046.502683691,
+          5458636.43133158
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0064",
+        "NAME":"Fountain location:\nHastings Community Park - SE of tennis courts",
+        "LOCATION":"besides path leading to spray",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Hastings Community Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497221.2768309,
+          5458637.45209429
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0063",
+        "NAME":"Fountain location:\nHastings Community Park - South of wading pool",
+        "LOCATION":"besides wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Hastings Community Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496876.850656235,
+          5458945.03027256
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0065",
+        "NAME":"Fountain location:\nHastings Park - Italian gardens",
+        "LOCATION":"near skate park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Hastings Park (Empire Field) - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497572.764526763,
+          5459007.40524519
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0067",
+        "NAME":"Fountain location:\nHastings Park -Plateau Sport Parks / Empire Fields",
+        "LOCATION":"north of empire field",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Hastings Park (Empire Field) - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497508.052085238,
+          5458868.30632482
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0070",
+        "NAME":"Fountain location:\nHastings Park -Plateau Sport Parks / Empire Fields",
+        "LOCATION":"empire field - soccer fields",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null,
+        "PHOTO_NAME":"Hastings Park (Empire Field) - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497509.185450211,
+          5458880.11622104
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0066",
+        "NAME":"Fountain location:\nHastings Park -Plateau Sport Parks / Empire Fields",
+        "LOCATION":"field house at empire field",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Hastings Park (Empire Field) - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497491.997135831,
+          5458916.70447533
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0069",
+        "NAME":"Fountain location:\nHastings Park -Plateau Sport Parks / Empire Fields",
+        "LOCATION":"East of playgrounds",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null,
+        "PHOTO_NAME":"Hastings Park (Empire Field) - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497508.052085238,
+          5458868.30632482
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0068",
+        "NAME":"Fountain location:\nHastings Park -Plateau Sport Parks / Empire Fields",
+        "LOCATION":"East of basketball courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null,
+        "PHOTO_NAME":"Hastings Park (Empire Field) - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492215.673603808,
+          5454782.73580295
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0072",
+        "NAME":"Fountain location:\nHillcrest Park - East side",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492214.569316125,
+          5454771.01588643
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0071",
+        "NAME":"Fountain location:\nHillcrest Park - North of playground",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486053.530504991,
+          5457712.72468793
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0073",
+        "NAME":"Fountain location:\nJericho Beach Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495490.400052872,
+          5455698.07723796
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0074",
+        "NAME":"Fountain location:\nJohn Hendry (Trout Lake) Park",
+        "LOCATION":"nearby beach",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492178.934490071,
+          5456839.63856348
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0075",
+        "NAME":"Fountain location:\nJonathan Rogers Park",
+        "LOCATION":"E-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496716.082144975,
+          5456811.71561769
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0076",
+        "NAME":"Fountain location:\nKaslo Park",
+        "LOCATION":"SE corner of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494593.307455357,
+          5453943.3610913
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0077",
+        "NAME":"Fountain location:\nKensington Park",
+        "LOCATION":"between baseball diamond and parking lots",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488556.889475059,
+          5453418.18695498
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0078",
+        "NAME":"Fountain location:\nKerrisdale Centennial Park",
+        "LOCATION":"2nd N-side entrance",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496699.863091572,
+          5452947.48452981
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0080",
+        "NAME":"Fountain location:\nKillarney Park - E 45th Ave. @ Killarney St.",
+        "LOCATION":"north plaza",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Killarney Park - drinking fountain 2 - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496951.715077914,
+          5452709.87608543
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0079",
+        "NAME":"Fountain location:\nKillarney Park - East of wading pool",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Killarney Park - drinking fountain 1 - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494573.278791977,
+          5454964.7212838
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0081",
+        "NAME":"Fountain location:\nKingcrest Park",
+        "LOCATION":"E-side of washroom",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Kingcrest Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488963.852113244,
+          5458243.15000721
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0084",
+        "NAME":"Fountain location:\nKitsilano Beach Park - North of parking lot",
+        "LOCATION":"besides parking lot",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488857.308002851,
+          5458014.62063155
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0083",
+        "NAME":"Fountain location:\nKitsilano Beach Park - South of playground",
+        "LOCATION":"besides playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488812.26565838,
+          5457980.81998732
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0082",
+        "NAME":"Fountain location:\nKitsilano Beach Park - washroom wall",
+        "LOCATION":"opposite washrooms",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492257.710191793,
+          5451863.63753826
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0087",
+        "NAME":"Fountain location:\nLangara Golf Course - East of tennis courts",
+        "LOCATION":"56th and Ontario",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491530.055259141,
+          5452272.65356496
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0086",
+        "NAME":"Fountain location:\nLangara Golf Course - cambie pathway",
+        "LOCATION":"cambie pathway",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491806.362349848,
+          5452351.15691674
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0088",
+        "NAME":"Fountain location:\nLangara Golf Course - clubhouse building ",
+        "LOCATION":"clubhouse building ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491865.275119309,
+          5451726.51467719
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0085",
+        "NAME":"Fountain location:\nLangara Golf Course - servive yard",
+        "LOCATION":"servive yard",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          484932.172164411,
+          5458055.93979695
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0089",
+        "NAME":"Fountain location:\nLocarno Beach Park",
+        "LOCATION":"near concessions",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492828.992652614,
+          5453037.32000776
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0090",
+        "NAME":"Fountain location:\nMacDonald Park",
+        "LOCATION":"near NW corner of tennis court",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493495.699876327,
+          5458469.74407534
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0091",
+        "NAME":"Fountain location:\nMaclean Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492215.268190389,
+          5456551.793869
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0092",
+        "NAME":"Fountain location:\nMajor Matthews Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488372.358646348,
+          5452290.06213277
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0094",
+        "NAME":"Fountain location:\nMaple Grove Park - East of pool",
+        "LOCATION":"E-side of pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488290.22735602,
+          5452326.58942769
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0093",
+        "NAME":"Fountain location:\nMaple Grove Park - South of baseball diamond",
+        "LOCATION":"S-side of baseball diamond",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489879.255170721,
+          5450335.35232754
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0095",
+        "NAME":"Fountain location:\nMarpole Park",
+        "LOCATION":"west entrance to playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Marpole Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486896.447800592,
+          5457267.58202969
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0096",
+        "NAME":"Fountain location:\nMcBride Park",
+        "LOCATION":"S of playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"McBride Park - drinking fountain - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487556.631523156,
+          5451980.31655204
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0097",
+        "NAME":"Fountain location:\nMcCleery Golf Course - 5th tee",
+        "LOCATION":"5th tee",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487777.562854152,
+          5452044.00194933
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0098",
+        "NAME":"Fountain location:\nMcCleery Golf Course - clubhouse building ",
+        "LOCATION":"clubhouse building ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487648.946949065,
+          5452003.77741218
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0099",
+        "NAME":"Fountain location:\nMcCleery Golf Course - driving range ",
+        "LOCATION":"driving range ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487567.992514843,
+          5452008.64604978
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0100",
+        "NAME":"Fountain location:\nMcCleery Golf Course - servive yard",
+        "LOCATION":"servive yard",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497882.262085873,
+          5453750.5667108
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0101",
+        "NAME":"Fountain location:\nMelbourne Park",
+        "LOCATION":"front of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Melbourne Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493829.436456773,
+          5453208.75097434
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0102",
+        "NAME":"Fountain location:\nMemorial South Park - West of Softball Diamond",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493672.88596246,
+          5453188.6836316
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0103",
+        "NAME":"Fountain location:\nMemorial South Park - West of wading pool",
+        "LOCATION":"W-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486368.647044693,
+          5454537.89666985
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0104",
+        "NAME":"Fountain location:\nMemorial West Park",
+        "LOCATION":"S of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493650.618359716,
+          5451409.71001263
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0106",
+        "NAME":"Fountain location:\nMoberly Park - Arts & Cultural Centre",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493839.977769314,
+          5451352.73077968
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0105",
+        "NAME":"Fountain location:\nMoberly Park - West of tennis courts",
+        "LOCATION":"in front of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489655.56181855,
+          5459430.24926962
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0107",
+        "NAME":"Fountain location:\nMorton Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494602.451990983,
+          5457840.39716579
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0108",
+        "NAME":"Fountain location:\nMosaic Creek Park",
+        "LOCATION":"near children's play area",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492255.493635252,
+          5456028.07994798
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0109",
+        "NAME":"Fountain location:\nMount Pleasant Park",
+        "LOCATION":"S-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495856.903761906,
+          5452845.99764136
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0110",
+        "NAME":"Fountain location:\nNanaimo Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Nanaimo Park - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490547.915419763,
+          5458918.2458301
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0111",
+        "NAME":"Fountain location:\nNelson Park",
+        "LOCATION":"middle of park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Nelson Park - drinking fountain - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497334.855107587,
+          5459625.61383982
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0113",
+        "NAME":"Fountain location:\nNew Brighton Park - South of pool",
+        "LOCATION":"S-side of pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"New Brighton - drinking fountain 2 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497187.609807924,
+          5459643.80830301
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0114",
+        "NAME":"Fountain location:\nNew Brighton Park - South west of playground",
+        "LOCATION":"SW of playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"New Brighton - drinking fountain 1 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497417.407317889,
+          5459661.37225821
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0112",
+        "NAME":"Fountain location:\nNew Brighton Park - West of tennis courts",
+        "LOCATION":"W-side of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496301.190897121,
+          5453945.84101101
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0115",
+        "NAME":"Fountain location:\nNorquay Park",
+        "LOCATION":"front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490668.280445176,
+          5451585.53430036
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0117",
+        "NAME":"Fountain location:\nOak Park - East of fieldhouse",
+        "LOCATION":"East side of fieldhouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Oak Park - drinking fountain 3 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490724.154129342,
+          5451552.42185661
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0118",
+        "NAME":"Fountain location:\nOak Park - East of spray park",
+        "LOCATION":"In spray park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Oak Park - drinking fountain 1 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490597.80670019,
+          5451555.081712
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0116",
+        "NAME":"Fountain location:\nOak Park - North west of field hockey ",
+        "LOCATION":"Near parking lot",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Oak Park - drinking fountain 2 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493160.596264603,
+          5458921.38018457
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0119",
+        "NAME":"Fountain location:\nOppenheimer Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495826.082625648,
+          5458853.36669988
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0120",
+        "NAME":"Fountain location:\nPandora Park",
+        "LOCATION":"N-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492040.936119626,
+          5457737.27075276
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0190",
+        "NAME":"Fountain location:\nPark Site On South East False Creek",
+        "LOCATION":"NE side of the park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491984.194570167,
+          5457605.53364696
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0121",
+        "NAME":"Fountain location:\nPark Site On South East False Creek - Hinge",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492400.547007177,
+          5458784.7342076
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0122",
+        "NAME":"Fountain location:\nPioneer Place (Pigeon Park)",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492312.503371429,
+          5453866.24986494
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0124",
+        "NAME":"Fountain location:\nQueen Elizabeth Park - 37th and Ontario",
+        "LOCATION":"37th and Ontario",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Queen Elizabeth Park - drinking fountain 1 - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491736.636081786,
+          5454406.82577866
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0125",
+        "NAME":"Fountain location:\nQueen Elizabeth Park - At Conservatory",
+        "LOCATION":"At Conservatory",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Queen Elizabeth Park (Ontario Greenway) - drinking fountain 2 - 2006.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491881.773653417,
+          5454061.08598403
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0123",
+        "NAME":"Fountain location:\nQueen Elizabeth Park - Pitch and Putt Course",
+        "LOCATION":"Pitch and Putt Course",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489168.846514828,
+          5454671.97697418
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0126",
+        "NAME":"Fountain location:\nQuilchena Park",
+        "LOCATION":"W-side of fieldhouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496938.415778911,
+          5455494.8592552
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0127",
+        "NAME":"Fountain location:\nRenfrew Community Park",
+        "LOCATION":"adjacent to wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Renfrew Park - drinking fountain - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492372.537429261,
+          5454440.11907903
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0188",
+        "NAME":"Fountain location:\nRiley Park",
+        "LOCATION":"West side of the park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496226.724340031,
+          5450341.9206001
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0128",
+        "NAME":"Fountain location:\nRiverfront Park - East of washrooms",
+        "LOCATION":"E-side of washrooms",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496287.618293985,
+          5450340.100511
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0129",
+        "NAME":"Fountain location:\nRiverfront Park - West of tennis courts",
+        "LOCATION":"w-side of tennis courts",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493313.199389235,
+          5456129.75071823
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0130",
+        "NAME":"Fountain location:\nRobson Park",
+        "LOCATION":"N-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493983.269046071,
+          5451588.14578457
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0131",
+        "NAME":"Fountain location:\nRoss Park",
+        "LOCATION":"near shelter",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493997.890283916,
+          5451573.01048172
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0133",
+        "NAME":"Fountain location:\nRoss Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497594.809665838,
+          5457607.92600418
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0135",
+        "NAME":"Fountain location:\nRupert Park",
+        "LOCATION":"E-side of playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497773.136451368,
+          5457499.7909822
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0136",
+        "NAME":"Fountain location:\nRupert Park - East of fieldhouse",
+        "LOCATION":"E-side of Field house",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Rupert Park - drinking fountain 1 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497772.613972731,
+          5457824.7494928
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0134",
+        "NAME":"Fountain location:\nRupert Park - South of golf entrance booth",
+        "LOCATION":"S-side of golf entrance booth",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Rupert Park - drinking fountain 2 - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489365.431122584,
+          5457603.22401367
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0137",
+        "NAME":"Fountain location:\nSeaforth Peace Park",
+        "LOCATION":"S end plaza",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492308.226728922,
+          5457719.15708669
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0189",
+        "NAME":"Fountain location:\nSeawall - Creekside ",
+        "LOCATION":"Seawall - in front of Creekside Community Recreation Centre",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489697.632320568,
+          5451889.19064361
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0191",
+        "NAME":"Fountain location:\nShannon Mews Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496381.061005103,
+          5456178.27179348
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0138",
+        "NAME":"Fountain location:\nSlocan Greenway ",
+        "LOCATION":"12th and slocan ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496480.335043776,
+          5454626.20924712
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0139",
+        "NAME":"Fountain location:\nSlocan Park",
+        "LOCATION":"near playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          483825.030488307,
+          5458338.68625418
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0140",
+        "NAME":"Fountain location:\nSpanish Banks Beach Park",
+        "LOCATION":"on north wall of washrooms",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489218.259373422,
+          5462001.11728074
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0162",
+        "NAME":"Fountain location:\nStanley Park - Admin building",
+        "LOCATION":"Park Board Office",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489218.259373422,
+          5462001.11728074
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0159",
+        "NAME":"Fountain location:\nStanley Park - Brockton Cricket Pavilion",
+        "LOCATION":"Brockton Clubhouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490829.406562987,
+          5460786.75402555
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0155",
+        "NAME":"Fountain location:\nStanley Park - Brockton Oval Fieldhouse",
+        "LOCATION":"brockton oval",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489218.259373422,
+          5462001.11728074
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0158",
+        "NAME":"Fountain location:\nStanley Park - Brockton Point Viewpoint",
+        "LOCATION":"Brockton point - lighthouse",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489187.321004918,
+          5460122.23923819
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0145",
+        "NAME":"Fountain location:\nStanley Park - Ceperley Washrooms",
+        "LOCATION":"Ceperley washrooms",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489218.259373422,
+          5462001.11728074
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0161",
+        "NAME":"Fountain location:\nStanley Park - Dog Off-leash area",
+        "LOCATION":"Beside Dog off-leash area",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489218.259373422,
+          5462001.11728074
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0160",
+        "NAME":"Fountain location:\nStanley Park - Lawn Bowling Club",
+        "LOCATION":"Lawn Bowling",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491182.239148692,
+          5460772.65581102
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0154",
+        "NAME":"Fountain location:\nStanley Park - Legends Of The Moon Washroom",
+        "LOCATION":"Legends Of The Moon - Washroom",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490499.867142273,
+          5461159.80971498
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0142",
+        "NAME":"Fountain location:\nStanley Park - Lumbermen's Arch",
+        "LOCATION":"Lumbermen's Arch",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490247.221467171,
+          5460718.22581839
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0186",
+        "NAME":"Fountain location:\nStanley Park - North east of Rose and Perennial Ga",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489647.289813564,
+          5462315.60468861
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0141",
+        "NAME":"Fountain location:\nStanley Park - Prospect Point Lookout",
+        "LOCATION":"Prospect Point viewing",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489228.709440182,
+          5462009.07069157
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0156",
+        "NAME":"Fountain location:\nStanley Park - Prospect Point Picnic Site",
+        "LOCATION":"Prospect Point picnic area",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489626.883152371,
+          5462205.05464116
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0147",
+        "NAME":"Fountain location:\nStanley Park - Prospect Point Washrooms",
+        "LOCATION":"prospect point washrooms",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489349.663886234,
+          5460050.95946892
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0149",
+        "NAME":"Fountain location:\nStanley Park - Putting Green",
+        "LOCATION":"Pitch and Putt Course",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489092.647515825,
+          5460259.57985051
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0151",
+        "NAME":"Fountain location:\nStanley Park - Second Beach",
+        "LOCATION":"Second Beach",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489017.986199667,
+          5460325.12146933
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0152",
+        "NAME":"Fountain location:\nStanley Park - Second Beach Pool",
+        "LOCATION":"Second Beach pool deck",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489218.259373422,
+          5462001.11728074
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0144",
+        "NAME":"Fountain location:\nStanley Park - South west of playground",
+        "LOCATION":"Rose Garden playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490273.091160842,
+          5460771.05845079
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0157",
+        "NAME":"Fountain location:\nStanley Park - Stanley Park Pavilion",
+        "LOCATION":"pavillion outside washrooms",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489383.997295501,
+          5459963.35725482
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0143",
+        "NAME":"Fountain location:\nStanley Park - Tennis Courts",
+        "LOCATION":"near Tennis Courts & Fish House",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488635.92400657,
+          5461180.69116801
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0153",
+        "NAME":"Fountain location:\nStanley Park - Third Beach Seawall",
+        "LOCATION":"Third beach seawall",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489312.195992646,
+          5459965.65084587
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0146",
+        "NAME":"Fountain location:\nStanley Park - West of Restaurant ",
+        "LOCATION":"W - side of Fish House",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491226.485736505,
+          5460708.50219639
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0150",
+        "NAME":"Fountain location:\nStanley Park - West of Shore to Shore sculpture",
+        "LOCATION":"Totem poles",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490220.857798461,
+          5461000.38683578
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0148",
+        "NAME":"Fountain location:\nStanley Park - West side of Stanley Park Train",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493776.4294542,
+          5458143.39555544
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0163",
+        "NAME":"Fountain location:\nStrathcona Park - North west of basketball court",
+        "LOCATION":"besides basketball court",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493695.423118,
+          5458023.12946872
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0164",
+        "NAME":"Fountain location:\nStrathcona Park - besides baseball diamond",
+        "LOCATION":"besides baseball diamond",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497406.1776064,
+          5457138.08410816
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0165",
+        "NAME":"Fountain location:\nSunrise Park",
+        "LOCATION":"N-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489962.45623848,
+          5458481.0378899
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0066",
+        "NAME":"Fountain location:\nSunset Beach ",
+        "LOCATION":"on building wall ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"English Bay Park - drinking fountain - 2005.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492975.690625824,
+          5452245.50794805
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0167",
+        "NAME":"Fountain location:\nSunset Park",
+        "LOCATION":"front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490250.662160709,
+          5457393.80153016
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0168",
+        "NAME":"Fountain location:\nSutcliffe Park",
+        "LOCATION":"S-side of false creek communit",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492827.214148805,
+          5456081.89112924
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0169",
+        "NAME":"Fountain location:\nTea Swamp Park",
+        "LOCATION":"NE corner of park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494890.806609825,
+          5452994.74506534
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0170",
+        "NAME":"Fountain location:\nTecumseh Park",
+        "LOCATION":"middle of park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491390.442291688,
+          5452861.6155076
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0171",
+        "NAME":"Fountain location:\nTisdall Park",
+        "LOCATION":"near North baseball diamond",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488078.035843829,
+          5455413.86339874
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0172",
+        "NAME":"Fountain location:\nTrafalgar Park",
+        "LOCATION":"E-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493227.50784917,
+          5458038.5049161
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0173",
+        "NAME":"Fountain location:\nTrillium Park",
+        "LOCATION":"on west side of building ",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496353.300990188,
+          5456430.07613853
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0187",
+        "NAME":"Fountain location:\nVancouver Technical HS",
+        "LOCATION":"NE of the sport field",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":null
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490579.060579645,
+          5454089.20773625
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0175",
+        "NAME":"Fountain location:\nVandusen Botanical Garden",
+        "LOCATION":"near reflecting pond",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490542.514588319,
+          5454001.89988716
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0174",
+        "NAME":"Fountain location:\nVandusen Botanical Garden - upper gardens",
+        "LOCATION":"upper gardens",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489834.466934477,
+          5458060.59327135
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0176",
+        "NAME":"Fountain location:\nVanier Park (Burrard Civic Marina)",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"year-round"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495144.567319204,
+          5457664.34641149
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0177",
+        "NAME":"Fountain location:\nVictoria Park",
+        "LOCATION":"adjacent to children's play area",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Victoria Park - drinking fountain - 2007.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491996.127815933,
+          5458805.55252102
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0178",
+        "NAME":"Fountain location:\nVictory Square",
+        "LOCATION":"south corner of park",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"Victory Square - drinking fountain - 2008.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494682.030633424,
+          5456712.58210711
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0179",
+        "NAME":"Fountain location:\nW.C. Shelly Park",
+        "LOCATION":null,
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490689.159732814,
+          5459179.48462705
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0180",
+        "NAME":"Fountain location:\nWest End minipark",
+        "LOCATION":"Bute & Haro",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall",
+        "PHOTO_NAME":"West End Minipark @ Bute & Haro - drinking fountain - 2005.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490106.214889666,
+          5458824.41420884
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0181",
+        "NAME":"Fountain location:\nWest End minipark - JERVIS ST @ BURNABY ST",
+        "LOCATION":"north end",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          485067.820210481,
+          5457060.78916056
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0183",
+        "NAME":"Fountain location:\nWest Point Grey Park - North of wading pool",
+        "LOCATION":"N-side of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          485075.40438501,
+          5457153.33210358
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0182",
+        "NAME":"Fountain location:\nWest Point Grey Park - lawn bowling court",
+        "LOCATION":"In lawn bowling court",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491767.468700984,
+          5451467.830825
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0184",
+        "NAME":"Fountain location:\nWinona Park",
+        "LOCATION":"near playground",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494660.704169513,
+          5458423.99865099
+        ]
+      },
+      "properties":{
+        "MAPID":"DFPB0185",
+        "NAME":"Fountain location:\nWoodland Park",
+        "LOCATION":"in front of wading pool",
+        "MAINTAINER":"Parks",
+        "IN_OPERATION":"spring to fall"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490839.539866337,
+          5457071.97097851
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0500",
+        "NAME":"Bottle Filling Station location: \nCharleson Park Pumping Station",
+        "LOCATION":"North side of sewage pumping station 900 Charleson",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"CharlesonParkPumpingStation.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496988.948666885,
+          5456129.4358366
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0501",
+        "NAME":"Bottle Filling Station location: \nGrandview Hwy Pumping Station ",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"GrandviewHwyPumpingStation.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490093.534848644,
+          5457431.7784121
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0502",
+        "NAME":"Bottle Filling Station location: \nGranville Island Pumping Station",
+        "LOCATION":"North side of sewage pumping station on seawall east of the granville island entrance",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"GranvilleIslandPumpingStation.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490428.754455392,
+          5457850.13203953
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0503",
+        "NAME":"Bottle Filling Station location: \nGranville St Pumping Station",
+        "LOCATION":"North side of sewage pumping station under Granville Bridge on bike route",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"GranvilleStPumpingStation.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488886.605405412,
+          5457895.24374676
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0504",
+        "NAME":"Bottle Filling Station location: \nKitsilano Pumping Station",
+        "LOCATION":"North side of sewage pumping station on w/s/ 1300 Arbutus",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"KitsilanoPumpingStation.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492806.846564569,
+          5457813.41196265
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0505",
+        "NAME":"Bottle Filling Station location: \nThornton Park Pumping Station",
+        "LOCATION":"West side of sewage pumping station on w/s/ 1200 Station St",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"ThorntonParkPumpingStation.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489663.151713888,
+          5456961.53983456
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0011",
+        "NAME":"Fountain location:\n1650 W 7th",
+        "LOCATION":"Midblock, outside of 1650 W 7th",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"Y",
+        "PHOTO_NAME":"1650 w 7th 2.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492647.564844151,
+          5454781.47086577
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0001",
+        "NAME":"Fountain location:\n28th & Main",
+        "LOCATION":"Northeast corner of 28th & Main",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Main 28th 1.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490727.210759221,
+          5453875.55420386
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0012",
+        "NAME":"Fountain location:\n37th & Oak",
+        "LOCATION":"Southeast corner of 37th & Oak",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Oak 37th 2.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492309.511474014,
+          5453857.44203433
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0013",
+        "NAME":"Fountain location:\n37th & Ontario",
+        "LOCATION":"Northwest corner of 37th & Ontario",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Ontario&37th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492918.329831545,
+          5453828.74397509
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0018",
+        "NAME":"Fountain location:\n37th & Prince Edward",
+        "LOCATION":"Northwest corner of 37th & Prince Edward",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"Y",
+        "PHOTO_NAME":"Prince Ed 37th 4.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495711.314788507,
+          5453554.25017259
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0002",
+        "NAME":"Fountain location:\n39th & Nanaimo",
+        "LOCATION":"Southwest corner of 39th & Nanaimo",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Nanaimo&39th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488890.799986944,
+          5457285.30394412
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0003",
+        "NAME":"Fountain location:\n4th & Arbutus",
+        "LOCATION":"Northeast corner of 4th & Arbutus",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P3140883.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492250.80015264,
+          5451863.02573062
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0004",
+        "NAME":"Fountain location:\n56th & Ontario",
+        "LOCATION":"Northwest corner of 56th & Ontario",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"Y",
+        "PHOTO_NAME":"Ontario 56th 2.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491781.176973572,
+          5456883.58348544
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0014",
+        "NAME":"Fountain location:\n7th & Yukon",
+        "LOCATION":"Southwest corner of 7th & Yukon",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Yukon&7th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495991.604203809,
+          5451775.63518902
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0022",
+        "NAME":"Fountain location:\nAshburn & Elliot",
+        "LOCATION":"Northwest corner of Ashburn & Elliot",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Ashburn&Elliot.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492358.642323734,
+          5456684.32276306
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0015",
+        "NAME":"Fountain location:\nBroadway & Ontario",
+        "LOCATION":"Southwest corner of Broadway & Ontario",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Broadway ON 2.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487875.600030854,
+          5456843.58378233
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0032",
+        "NAME":"Fountain location:\nBroadway & Stephens",
+        "LOCATION":"Northwest corner of Broadway & Stephens",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P3140921.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          495225.692006759,
+          5456591.15083732
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0016",
+        "NAME":"Fountain location:\nBroadway & Victoria",
+        "LOCATION":"Southeast corner of Broadway & Victoria",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Broadway Victoria 2.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490600.594921664,
+          5458507.19414714
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0024",
+        "NAME":"Fountain location:\nBurrard & Davie",
+        "LOCATION":"Northwest corner of Burrard & Davie",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Davie&Burrard.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489850.908757677,
+          5459094.65773667
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0005",
+        "NAME":"Fountain location:\nCardero & Burnaby",
+        "LOCATION":"In the mini park at Cardero & Burnaby",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P2080275.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494951.859776279,
+          5457231.00342135
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0021",
+        "NAME":"Fountain location:\nCommercial & 3rd",
+        "LOCATION":"Northeast corner of Commercial & 3rd",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"Y",
+        "PHOTO_NAME":"Commercial&3rd.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490072.320987664,
+          5459340.88873972
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0025",
+        "NAME":"Fountain location:\nComox & Cardero",
+        "LOCATION":"Northeast corner of Comox & Cardero",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Comox&Cardero.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489627.30010608,
+          5459779.24357191
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0026",
+        "NAME":"Fountain location:\nComox & Chilco",
+        "LOCATION":"In mini park at Comox & Chilco",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Comox&Chilco.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489841.922911674,
+          5459568.91037449
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0027",
+        "NAME":"Fountain location:\nComox & Denman",
+        "LOCATION":"Northwest corner of Comox & Denman",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Comox&Denman.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489925.017872925,
+          5459617.57603506
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0033",
+        "NAME":"Fountain location:\nDenman & Nelson",
+        "LOCATION":"Southwest corner of Denman & Nelson",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P3011141.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493882.480436308,
+          5453753.34915758
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0017",
+        "NAME":"Fountain location:\nElgin & 37th",
+        "LOCATION":"Northwest corner of Elgin & 37th",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Elgin&37th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489726.029882885,
+          5459679.33311073
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0028",
+        "NAME":"Fountain location:\nGilford & Comox",
+        "LOCATION":"Northwest corner of Gilford & Comox",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Comox&Gilford.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489803.360057854,
+          5459759.41358319
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0006",
+        "NAME":"Fountain location:\nGilford & Nelson",
+        "LOCATION":"Northwest corner of Gilford & Nelson",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P3011198.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489834.820186336,
+          5451623.12442357
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0029",
+        "NAME":"Fountain location:\nGranville & 59th",
+        "LOCATION":"Northeast corner of Granville & 59th",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Granville&59th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491277.057615662,
+          5458761.15601389
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0019",
+        "NAME":"Fountain location:\nGranville & Robson",
+        "LOCATION":"Northwest corner of Granville & Robson",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Granville Robson 2.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492928.42811102,
+          5458741.44135963
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0020",
+        "NAME":"Fountain location:\nHastings & Gore",
+        "LOCATION":"Northeast corner of Hastings & Gore",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"Y",
+        "PHOTO_NAME":"Hastings&Gore.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496039.987394366,
+          5458695.18551054
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0034",
+        "NAME":"Fountain location:\nHastings & Kamloops",
+        "LOCATION":"Northeast corner of Hastings & Kamloops",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Hastings Kamploops 1.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492667.007687368,
+          5456482.06195503
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0023",
+        "NAME":"Fountain location:\nMain & 11th",
+        "LOCATION":"Southeast corner of Main & 11th",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Main&11th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490303.319846598,
+          5459226.17362108
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0007",
+        "NAME":"Fountain location:\nNelson & Broughton",
+        "LOCATION":"In mini park at Nelson & Broughton",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P2130403.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489781.116358048,
+          5458857.45012291
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0008",
+        "NAME":"Fountain location:\nNicola & Beach",
+        "LOCATION":"Northeast corner of Nicola & Beach",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Nicola Beach 1.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491106.1602514,
+          5458930.85325776
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0009",
+        "NAME":"Fountain location:\nRobson & Burrard",
+        "LOCATION":"Northeast corner of Robson & Burrard",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"Y",
+        "PHOTO_NAME":"P2190667.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489946.132032222,
+          5460088.05064939
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0010",
+        "NAME":"Fountain location:\nRobson & Chilco",
+        "LOCATION":"In mini park at Robson & Chilco",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"P2020133.JPG"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493643.742677221,
+          5458316.60692222
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0030",
+        "NAME":"Fountain location:\nUnion & Hawks",
+        "LOCATION":"In mini park at Union & Hawks",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Union&Hawks.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491666.045209954,
+          5456620.73822889
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0031",
+        "NAME":"Fountain location: Cambie & 10th",
+        "LOCATION":"Northeast corner of Cambie & 10th",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490257.822739298,
+          5458800.6657109
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0039",
+        "NAME":"Fountain location: Davie & Bute (Jim Deva Plaza)",
+        "LOCATION":"1200 Davie Street",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"Y"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490681.765653094,
+          5452959.25618985
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0037",
+        "NAME":"Fountain location: Oak & 46th",
+        "LOCATION":"Northeast corner of Oak & 46th",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Oak&46th.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486944.362977811,
+          5457701.82716501
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0040",
+        "NAME":"Fountain location: Point Grey Road & Waterloo",
+        "LOCATION":"1600 Waterloo St",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497732.37476656,
+          5450282.32837815
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0041",
+        "NAME":"Fountain location: River District Crossing & E Kent Ave North",
+        "LOCATION":"Northeast corner of River District Crossing & E Kent Ave North",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"May-October",
+        "PET_FRIENDLY":"N"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491016.637790898,
+          5458553.68568901
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0038",
+        "NAME":"Fountain location:Nelson & Howe",
+        "LOCATION":"Southeast corner of Nelson & Howe",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          487788.995292992,
+          5457670.76022566
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0036",
+        "NAME":"Fountain location:Pt.Grey & MacDonald",
+        "LOCATION":"Northwest corner of Pt. Grey & MacDonald",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N",
+        "PHOTO_NAME":"Pt. Grey&MacDonald.jpg"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          493508.240271998,
+          5456655.3870588
+        ]
+      },
+      "properties":{
+        "MAPID":"DFENG0035",
+        "NAME":"Fountian Location: Fraser & Broadway ",
+        "LOCATION":"Northwest corner of Fraser & Broadway ",
+        "MAINTAINER":"Engineering",
+        "IN_OPERATION":"Year Round",
+        "PET_FRIENDLY":"N"
+      }
+    }
   ]
 }
