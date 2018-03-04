@@ -32,7 +32,7 @@ class FirstViewController: UIViewController {
             logTrace { "exit DataReceived receiver" }
         }
         
-        AppNotifications.postRequestData("oden-manifest", overwrite: false)
+        AppNotifications.postRequestData("oden-manifest", overwrite: true)
         observer = Notifications.addObserver(messageName: Location.LOCATION_CHANGED, object: nil) { _ in
             self.updateUserLocation(location: Location.currentLocation)
         }
@@ -104,16 +104,7 @@ class FirstViewController: UIViewController {
             {
                 let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
 
-                print(url)
-                do
-                {
-                    print(try String(contentsOf: url));
-                }
-                catch
-                {
-                    print(error)
-                }
-//                plotPoints(locations)
+                plotPoints(locations)
             }
             catch
             {
@@ -122,13 +113,21 @@ class FirstViewController: UIViewController {
         }
     }
     
-    private func plotPoints(_ locations : AutomatedExternalDefibrillator)
+    private func plotPoints(_ objects : AutomatedExternalDefibrillator)
     {
-        locations.features!.forEach
+        objects.features!.forEach
         {
             (feature) in
             
-            print(feature)
+            let coordinate = CLLocationCoordinate2D(latitude: feature.geometry!.coordinates![1],
+                                                    longitude: feature.geometry!.coordinates![0])
+            let annotation = MKPointAnnotation()
+            
+            annotation.coordinate = coordinate
+            annotation.title      = feature.properties!.name!
+            self.MView.addAnnotation(annotation)
+            
+            print(annotation.title!)
         }
     }
     
