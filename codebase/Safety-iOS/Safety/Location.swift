@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import CoreLocation
 import UserNotifications
+import Firebase
 
 class Location {
     
@@ -20,6 +21,10 @@ class Location {
     static let REQUESTED_INUSE_AUTHORIZATION = "REQUESTED_INUSE_AUTHORIZATION"
     static let TRACK_ME_AT_ALL_TIMES = "trackMeAtAllTimes"
     static var currentLocation = CLLocation()
+    
+    // firebase database refs
+    lazy var ref: DatabaseReference = Database.database().reference()
+    static var userLocationsRef: DatabaseReference!
     
     static var requestedAuthorizationStatus: CLAuthorizationStatus = CLAuthorizationStatus.notDetermined
     
@@ -184,7 +189,7 @@ class Location {
     
     // decide what to do with the new location. Depends if this user has a moving Naloxone kit
     static func updateUser(location: CLLocation) {
-        /*
+
         if AppDelegate.fcmtoken == "" {
             AppDelegate.fcmtoken = Messaging.messaging().fcmToken
         }
@@ -215,14 +220,13 @@ class Location {
         let value = ["id" : AppDelegate.fcmtoken,
                      "loc" : loc] as [String : Any]
         
-        
         // firebase database reference of statickits
-        locationAngelsRef = Database.database().reference().child("userLocations")
+        userLocationsRef = Database.database().reference().child("userLocations")
         
         // locationAngelsRef.setValue(uid)
-        locationAngelsRef.child(uid).updateChildValues(value)
+        userLocationsRef.child(uid).updateChildValues(value)
         
-        // locationAngelsRef.child(uid) */
+        // locationAngelsRef.child(uid)
         
     }
 }
