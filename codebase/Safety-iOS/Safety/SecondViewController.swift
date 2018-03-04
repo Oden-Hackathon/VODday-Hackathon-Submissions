@@ -18,7 +18,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     lazy var ref: DatabaseReference = Database.database().reference()
     var feedRef: DatabaseReference!
     
-    var allFeedAlerts: [FeedAlert]!
+    //var feedAlerts: [FeedAlert]!
     
     var feedAlerts: [FeedAlert] = {
     
@@ -27,16 +27,15 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
 // let newFeedAlert = FeedAlert(timestamp: 0)
         
         
-        /* _feed.append(FeedAlert(timestamp: 1520115759, location: CLLocation(), type: FeedAlert.AlertType.accident, message: "Highway closed at Boundary Rd."))
-        _feed.append(FeedAlert(timestamp: 1520115459, location: CLLocation(), type: FeedAlert.AlertType.fire,     message: "Fire at 304 Beta Ave.")) */
+//         _feed.append(FeedAlert(id: "-1", timestamp: 1520115759, location: CLLocation(), type: "accident", message: "Highway closed at Boundary Rd."))
+//        _feed.append(FeedAlert(id: "0",   timestamp: 1520115459, location: CLLocation(), type: "fire",     message: "Fire at 304 Beta Ave."))
 
         
         return _feed
     }()
     
     func initStaticKits() {
-        allFeedAlerts = [FeedAlert]()
-        
+
         // Listen for new staticKits in the Firebase database
         // it is aysn.kits will be added one by one;
         //
@@ -49,18 +48,20 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
                 
                 //                guard let id = Int32(addedskit.id) else {
                 //                    print("kit id (\(addedskit.id)) is not an int! Skipping!")
-                //                    return
+                //                     return
                 //                }
+
+                print(addedFeedAlert)
                 
                 
-                
-                self?.allFeedAlerts.append(addedFeedAlert)
+                self?.feedAlerts.append(addedFeedAlert)
+                self?.tableView.reloadData()
                 
                 
                 //debug info
                 print("start printing\n")
                 print(addedFeedAlert)
-                print("\(self?.allFeedAlerts.count ?? -1)")
+                print("\(self?.feedAlerts.count ?? -1)")
             }
             
         })
@@ -87,8 +88,10 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
                 return
             }
             
-            if let index = self?.allFeedAlerts.index(where: {$0.id == rmid}) {
-                self?.allFeedAlerts.remove(at: index)
+            if let index = self?.feedAlerts.index(where: {$0.id == rmid}) {
+                self?.feedAlerts.remove(at: index)
+                self?.tableView.reloadData()
+
             }
         })
         
@@ -100,12 +103,15 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             // remove
             guard let dict = snapshot.value as? [String:Any] else { return }
             guard let changeid = dict["id"] as? String else {return }
-            if let index = self?.allFeedAlerts.index(where: {$0.id == changeid}) {
-                self?.allFeedAlerts.remove(at: index)
+            if let index = self?.feedAlerts.index(where: {$0.id == changeid}) {
+                self?.feedAlerts.remove(at: index)
+
             }
             // add back
             if let addedFeedAlert = FeedAlert(From: snapshot) {
-                self?.allFeedAlerts.append(addedFeedAlert)
+                self?.feedAlerts.append(addedFeedAlert)
+                self?.tableView.reloadData()
+
                 //                print("start printing\n")
                 //                print(addedskit)
                 //                print("\(self?.allStaticKits.count ?? -1)")
@@ -120,6 +126,9 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.delegate = self
         tableView.dataSource = self
+
+        feedRef = ref.child("feed")
+        initStaticKits()
 
 //      self.tableView.rowHeight = 140
 

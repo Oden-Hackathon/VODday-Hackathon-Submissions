@@ -10,7 +10,7 @@ import Foundation
 import TraceLog
 
 typealias RequestDataReceiver = (_ path : String, _ overwrite : Bool) -> Void
-typealias DataReceivedReceiver = (_ localURLs : [URL]) -> Void
+typealias DataReceivedReceiver = (_ localURL : URL, _ type : String) -> Void
 
 class AppNotifications: Notifications
 {
@@ -62,13 +62,14 @@ class AppNotifications: Notifications
     
     // MARK: -RequestData
     
-    static func postDataReceived(_ urls : [URL]!, object: AnyObject? = nil)
+    static func postDataReceived(_ url : URL!, type : String!, object: AnyObject? = nil)
     {
         logTrace { "enter \(#function)" }
         
         let userInfo : [AnyHashable: Any] =
         [
-            "URLs" : urls,
+            "URL" : url,
+            "Type" : type,
         ]
         
         post(messageName: AppNotifications.DataReceived,
@@ -90,8 +91,9 @@ class AppNotifications: Notifications
             
             logTrace { "enter \(#function) receiver" }
             
-            let urls = notification.userInfo!["URLs"] as! [URL]
-            receiver(urls)
+            let url = notification.userInfo!["URL"] as! URL
+            let type = notification.userInfo!["Type"] as! String
+            receiver(url, type)
             
             logTrace { "enter \(#function) receiver" }
         }
