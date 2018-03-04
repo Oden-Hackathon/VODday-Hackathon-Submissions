@@ -9,7 +9,7 @@
 import Foundation
 import TraceLog
 
-typealias RequestDataReceiver = (_ path : String) -> Void
+typealias RequestDataReceiver = (_ path : String, _ overwrite : Bool) -> Void
 typealias DataReceivedReceiver = (_ localURLs : [URL]) -> Void
 
 class AppNotifications: Notifications
@@ -19,13 +19,14 @@ class AppNotifications: Notifications
     
     // MARK: -RequestData
     
-    static func postRequestData(_ fileName : String, object: AnyObject? = nil)
+    static func postRequestData(_ fileName : String!, overwrite : Bool!, object: AnyObject? = nil)
     {
         logTrace { "enter \(#function)" }
         
         let userInfo : [AnyHashable: Any] =
         [
             "FileName" : fileName,
+            "Overwrite" : overwrite
         ]
         
         post(messageName: AppNotifications.RequestData,
@@ -47,8 +48,9 @@ class AppNotifications: Notifications
             
             logTrace { "enter \(#function) receiver" }
             
-            let fileName = notification.userInfo!["FileName"] as? String
-            receiver(fileName!)
+            let fileName = notification.userInfo!["FileName"] as! String
+            let overwrite = notification.userInfo!["Overwrite"] as! Bool
+            receiver(fileName, overwrite)
             
             logTrace { "enter \(#function) receiver" }
         }
@@ -88,8 +90,8 @@ class AppNotifications: Notifications
             
             logTrace { "enter \(#function) receiver" }
             
-            let urls = notification.userInfo!["URLs"] as? [URL]
-            receiver(urls!)
+            let urls = notification.userInfo!["URLs"] as! [URL]
+            receiver(urls)
             
             logTrace { "enter \(#function) receiver" }
         }

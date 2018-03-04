@@ -27,10 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
         downloader.delegate = self
         locationManager.delegate = self
         requestDataReceiver = AppNotifications.addRequestDataObserver(object: nil) {
-            (fileName) in
+            (fileName, overwrite) in
             
             logTrace { "enter RequestData receiver" }
-            self.requestData(fileName)
+            self.requestData(fileName, overwrite: overwrite)
             logTrace { "exit RequestData receiver" }
         }
         
@@ -184,7 +184,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
         }
     }
     
-    func requestData(_ fileName : String!)
+    func requestData(_ fileName : String!, overwrite : Bool!)
     {
         let downloader = ManifestDownloader()
         
@@ -192,7 +192,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
         
         do
         {
-            try downloader.download(fileName, overwrite: true)
+            try downloader.download(fileName, overwrite: overwrite)
         }
         catch
         {
