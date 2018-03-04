@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import TraceLog
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, MKMapViewDelegate {
     var receivedDataReceiver: NSObjectProtocol?
 
     @IBOutlet weak var MView: MKMapView!
@@ -71,6 +71,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        MView.delegate = self
         receivedDataReceiver = AppNotifications.addDataReceivedObserver(object: nil)
         {
             (url, type) in
@@ -147,8 +148,7 @@ class FirstViewController: UIViewController {
         do
         {
             let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
-            print(type)
-            plotPoints(locations)
+            plotPoints(locations, type: type)
         }
         catch
         {
@@ -156,7 +156,7 @@ class FirstViewController: UIViewController {
         }
     }
     
-    private func plotPoints(_ objects : AutomatedExternalDefibrillator)
+    private func plotPoints(_ objects : AutomatedExternalDefibrillator, type: String!)
     {
         objects.features!.forEach
         {
@@ -169,8 +169,8 @@ class FirstViewController: UIViewController {
             
             annotation.coordinate = coordinate
             annotation.title      = feature.properties!.name!
+            annotation.subtitle   = "Hospital" // TODO
             self.MView.addAnnotation(annotation)
-            print(annotation.title!)
         }
 
     }
@@ -239,5 +239,28 @@ class FirstViewController: UIViewController {
         self.present(optionMenu, animated: true, completion: nil)
     }
     
+    // https://www.hackingwithswift.com/read/19/3/annotations-and-accessory-views-mkpinannotationview
+    private func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?
+    {
+        if annotation.subtitle! == "Hospital"
+        {
+            var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: annotation.description)
+            
+            if annotationView == nil
+            {
+                annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: annotation.description)
+                annotationView!.canShowCallout = false
+                annotationView!.tintColor = .green
+            }
+            else
+            {
+                annotationView!.annotation = annotation
+            }
+            
+            return annotationView
+        }
+        
+        return nil
+    }
 }
 
