@@ -19,6 +19,54 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
     var observer:  NSObjectProtocol?
     var centered: Bool = false
     var selfAnnotation: MKPointAnnotation?
+
+    var onColor = UIColor.yellow
+    var offColor = UIColor.darkGray
+
+    var heartOn = false
+    var needleOn = false
+    var medicalOn = false
+
+    @IBOutlet var heartButton: UIButton!
+    @IBOutlet var needleButton: UIButton!
+    @IBOutlet var medical: UIButton!
+    
+    @IBAction func heartClick(_ sender: Any) {
+        
+        heartOn = !heartOn
+        print("heart click \(heartOn)")
+        
+        (sender as! UIButton).tintColor = heartOn ? onColor : offColor
+
+        reloadPins()
+        
+    }
+    
+    @IBAction func needleClick(_ sender: Any) {
+        
+        needleOn = !needleOn
+        print("needle click \(needleOn)")
+        
+        (sender as! UIButton).tintColor = needleOn ? onColor : offColor
+        reloadPins()
+        
+    }
+    
+    @IBAction func medicalClick(_ sender: Any) {
+        
+        medicalOn = !medicalOn
+        print("medical click: \(medicalOn)")
+
+        (sender as! UIButton).tintColor = medicalOn ? onColor : offColor
+        reloadPins()
+        
+    }
+
+    func reloadPins() {
+        // Todo this
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,7 +161,8 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
         objects.features!.forEach
         {
             (feature) in
-            
+
+
             let coordinate = CLLocationCoordinate2D(latitude: feature.geometry!.coordinates![1],
                                                     longitude: feature.geometry!.coordinates![0])
             let annotation = MKPointAnnotation()
@@ -123,6 +172,7 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
             annotation.subtitle   = "Hospital" // TODO
             self.MView.addAnnotation(annotation)
         }
+
     }
     
     func helpAlert (title: String) {
