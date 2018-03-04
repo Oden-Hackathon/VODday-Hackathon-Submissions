@@ -30,6 +30,7 @@ public class AutomatedExternalDefibrillator : EVObject
         {
             public var name : String?
             public var address : String?
+            public var location : String?
             public var phone : String?
         }
     }

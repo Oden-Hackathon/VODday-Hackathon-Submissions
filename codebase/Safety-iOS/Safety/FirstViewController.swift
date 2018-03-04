@@ -99,7 +99,7 @@ class FirstViewController: UIViewController {
         do
         {
             let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
-
+            print(type)
             plotPoints(locations)
         }
         catch
@@ -121,7 +121,6 @@ class FirstViewController: UIViewController {
             annotation.coordinate = coordinate
             annotation.title      = feature.properties!.name!
             self.MView.addAnnotation(annotation)
-            
             print(annotation.title!)
         }
     }

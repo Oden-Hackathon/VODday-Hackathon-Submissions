@@ -19,6 +19,7 @@ function convert(data)
     for(var i = 1;i < lines.length;i++)
     {
         const line = lines[i];
+        console.log(line);
 
         if(line.length == 0)
         {
