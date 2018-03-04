@@ -10,5 +10,7 @@ target 'Safety' do
   pod 'ZIPFoundation'
   pod "TraceLog"
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
   pod 'FirebaseDatabase'
+  pod 'FirebaseMessaging'
 end

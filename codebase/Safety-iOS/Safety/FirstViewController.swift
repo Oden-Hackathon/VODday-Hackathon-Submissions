@@ -9,6 +9,8 @@
 import UIKit
 import MapKit
 import TraceLog
+import Firebase
+import FirebaseDatabase
 
 class FirstViewController: UIViewController, MKMapViewDelegate {
     var receivedDataReceiver: NSObjectProtocol?
@@ -67,11 +69,16 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
     }
     
     
+    lazy var ref: DatabaseReference = Database.database().reference()
+    var helpObjectRef: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        helpObjectRef = ref.child("helpObjects")
         
         MView.delegate = self
+        
         receivedDataReceiver = AppNotifications.addDataReceivedObserver(object: nil)
         {
             (url, type) in
@@ -171,6 +178,8 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
             annotation.title      = feature.properties!.name!
             annotation.subtitle   = "Hospital" // TODO
             self.MView.addAnnotation(annotation)
+            
+            // print(annotation.title!)
         }
 
     }
@@ -186,6 +195,47 @@ class FirstViewController: UIViewController, MKMapViewDelegate {
         
         alertController.addAction(okayAction)
         self.present(alertController, animated: true, completion: nil)
+        
+        let coordinates = Location.currentLocation.coordinate
+        
+        let helpObject = HelpObject(region: nil, reportedTime: Date(), coordinates:
+            CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude))
+        
+        print ("https://preventanyl.com/regionfinder.php?id=\(helpObject.id)&lat=\(Location.currentLocation.coordinate.latitude)&long=\(Location.currentLocation.coordinate.longitude)")
+        if let url = URL(string: "https://preventanyl.com/regionfinder.php?id=\(helpObject.id)&lat=\(Location.currentLocation.coordinate.latitude)&long=\(Location.currentLocation.coordinate.longitude)") {
+            var request = URLRequest(url: url)
+            request.setValue("Safety App", forHTTPHeaderField: "User-Agent")
+            
+            let task = URLSession.shared.dataTask(with: request) {data, response, error in
+                
+                print (error as Any?)
+                
+                if let data = data {
+                    print (data)
+                    // data is a response string
+                }
+            }
+            
+            
+            
+            var d = DateFormatter()
+            d.dateFormat = "yyyy-MM-dd"
+            
+            
+            let value = ["id" : helpObject.id,
+                         "date" : d.string(from: helpObject.reportedTime),
+                         "timestamp" : helpObject.reportedTime.timeIntervalSince1970,
+                         "latitude" : coordinates.latitude,
+                         "longitude" : coordinates.longitude
+                ] as [String : Any]
+            
+            
+            print("\nAdding overdose child:\(helpObject.id)\n")
+            print (helpObjectRef.child(helpObject.id))
+            helpObjectRef.child(helpObject.id).updateChildValues(value)
+            
+            task.resume()
+        }
     }
     
     @IBAction func helpMe(_ sender: UIButton) {

@@ -100,7 +100,6 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             
             print("childChanged")
             
-            
             // remove
             guard let dict = snapshot.value as? [String:Any] else { return }
             guard let changeid = dict["id"] as? String else {return }
