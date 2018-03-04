@@ -1,0 +1,53 @@
+Voting Place ID,Facility Name,Facility Address,Location ,Latitude,Longitude,Advance Only?,Local Area
+1,Vancouver City Hall,453 12TH AVE W,Main Floor,49.26131589360,-123.1139357,NO,Mount Pleasant
+2,King George Secondary School,1755 BARCLAY ST,Gymnasium,49.28991295920,-123.1360738,NO,West End
+3,Lord Roberts Annex Elementary School,1150 NELSON ST,Gymnasium,49.28314421100,-123.1297377,NO,West End
+4,Gathering Place Community Centre,609 HELMCKEN ST,Theatre,49.27796805780,-123.1235518,NO,Downtown
+5,Elsie Roy Elementary School,150 DRAKE ST,Gymnasium,49.27214739800,-123.1226135,NO,Downtown
+6,Crosstown Elementary School,55 EXPO BLVD,Gymnasium,49.27863093660,-123.106592,NO,Downtown
+7,Lord Strathcona Elementary School,592 PENDER ST E,Cafeteria,49.27977979280,-123.0915462,NO,Strathcona
+8,Ray-Cam Co-operative Centre,920 HASTINGS ST E,Gymnasium,49.28073960320,-123.0843025,NO,Strathcona
+9,Grandview Elementary School,2055 WOODLAND DR,Gymnasium,49.26610986130,-123.0746117,NO,Grandview-Woodland
+10,Sir William MacDonald Elementary School,1950 HASTINGS ST E,Gymnasium,49.28062415390,-123.0643232,NO,Grandview-Woodland
+11,Hastings Elementary School,2625 FRANKLIN ST,Gymnasium,49.28252408460,-123.050642,NO,Hastings-Sunrise
+12,Sir John Franklin Elementary School,250 SKEENA ST,Gymnasium,49.28254390460,-123.0270231,NO,Hastings-Sunrise
+13,Chief Maquinna Elementary School,2684 2ND AVE E,Gymnasium,49.26803100760,-123.0507999,NO,Hastings-Sunrise
+14,John Norquay Elementary School,4710 SLOCAN ST,Large Gymnasium,49.24149652560,-123.0511285,NO,Renfrew-Collingwood
+15,Renfrew Elementary School,3315 22ND AVE E,Gymnasium,49.25074938460,-123.0319542,NO,Renfrew-Collingwood
+16,Dr. H. N. MacCorkindale Elementary School,6100 BATTISON ST,Gymnasium,49.22774304570,-123.0293788,NO,Killarney
+17,Killarney Community Centre,6260 KILLARNEY ST,Gymnasium,49.22740992540,-123.0443906,NO,Killarney
+18,Champlain Heights Annex Elementary School,7835 CHAMPLAIN CRES,Gymnasium,49.21407016150,-123.0306622,NO,Killarney
+19,David Oppenheimer Elementary School,2421 SCARBORO AVE,Gymnasium,49.21364397370,-123.0579581,NO,Victoria-Fraserview
+20,David Thompson Secondary School,1755 55TH AVE E,Cafeteria,49.22088896450,-123.0705456,NO,Victoria-Fraserview
+21,Pierre Elliott Trudeau Elementary School,449 62ND AVE E,Gymnasium,49.21457405290,-123.0960898,NO,Sunset
+22,John Oliver Secondary School,530 41ST AVE E,Girls Gymnasium,49.23197930840,-123.0926825,NO,Sunset
+23,Tecumseh Annex Elementary School,1551 37TH AVE E,Gymnasium,49.23721791840,-123.0735951,NO,Kensington-Cedar Cottage
+24,Lord Selkirk Elementary School,1750 22ND AVE E,Gymnasium,49.24967958660,-123.0687764,NO,Kensington-Cedar Cottage
+25,Charles Dickens Annex Elementary School,3877 GLEN DR,Gymnasium,49.25020997370,-123.0828519,NO,Kensington-Cedar Cottage
+26,David Livingstone Elementary School,315 23RD AVE E,Gymnasium,49.25067362630,-123.0976776,NO,Riley Park
+27,Hillcrest Community Centre,4575 CLANCY LORANGER WAY,Gymnasium,49.24477337590,-123.108197,NO,Riley Park
+28,Mount Pleasant Elementary School,2300 GUELPH ST,Gymnasium,49.26403987150,-123.0940422,NO,Mount Pleasant
+29,Simon Fraser Elementary School,100 15TH AVE W,Gymnasium,49.25717273480,-123.1083818,NO,Mount Pleasant
+30,False Creek Elementary School,900 SCHOOL GREEN,Gymnasium,49.26709998760,-123.126681,NO,Fairview
+31,L'Ecole Bilingue Elementary School,1166 14TH AVE W,Gymnasium,49.25831752070,-123.1303641,NO,Fairview
+32,Emily Carr Elementary School,4070 OAK ST,Gymnasium,49.24987075010,-123.126073,NO,South Cambie
+33,Shaughnessy Elementary School,4250 MARGUERITE ST,Gymnasium,49.24844650640,-123.1437965,NO,Shaughnessy
+34,Point Grey Secondary School,5350 EAST BOULEVARD,Cafeteria,49.23728903700,-123.1534306,NO,Shaughnessy
+35,Langara Golf Course,6706 ALBERTA ST,Clubhouse,49.22095135690,-123.1115868,NO,Oakridge
+36,Sir William Osler Elementary School,5970 SELKIRK ST,Gymnasium,49.23101148900,-123.1326251,NO,Oakridge
+37,Sir William Van Horne Elementary School,5855 ONTARIO ST,Gymnasium,49.23179483480,-123.1069441,NO,Oakridge
+38,Sir Wilfrid Laurier Elementary School,7350 LAUREL ST,Large Gymnasium,49.21820757850,-123.1249947,NO,Marpole
+39,Westside Baptist Church,8506 ASH ST,Worship Hall,49.20815077460,-123.1185288,NO,Marpole
+40,Dr. R. E. McKechnie Elementary School,7455 MAPLE ST,Gymnasium,49.21763055370,-123.1535505,NO,Kerrisdale
+41,Kerrisdale Annex Elementary School,3250 43RD AVE W,West Hall,49.23282072640,-123.1769391,NO,Kerrisdale
+42,Maple Grove Elementary School,6199 CYPRESS ST,Gymnasium,49.22984389230,-123.1502112,NO,Kerrisdale
+43,Carnarvon Elementary School,3400 BALACLAVA ST,Activity Room,49.25607117990,-123.173674,NO,Arbutus-Ridge
+44,Prince of Wales Secondary School,2250 EDDINGTON DR,Gymnasium,49.24547177480,-123.1572844,NO,Arbutus-Ridge
+45,Henry Hudson Elementary School,1551 CYPRESS ST,Gymnasium,49.27203843480,-123.1486629,NO,Kitsilano
+46,Lord Tennyson Elementary School,1936 10TH AVE W,Gymnasium,49.26234509670,-123.1493672,NO,Kitsilano
+47,General Gordon Elementary School,2268 BAYSWATER ST,Gymnasium,49.26594712200,-123.1703949,NO,Kitsilano
+48,Lord Byng Secondary School,3939 16TH AVE W,Girls Gymnasium,49.25901990710,-123.1925809,NO,West Point Grey
+49,Lord Kitchener Elementary School,3455 KING EDWARD AVE W,Room 158,49.25058180730,-123.1802456,NO,Dunbar-Southlands
+50,Southlands Elementary School,5351 CAMOSUN ST,Gymnasium,49.23754442200,-123.1978035,NO,Dunbar-Southlands
+200,Vancouver City Hall,453 12TH AVE W,Main Floor,49.26131589360,-123.1139357,YES,Mount Pleasant
+400,University Hill Secondary School,3228 ROSS DR,Gymnasium,49.25398244570,-123.2397281,NO,UBC Lands and UEL
