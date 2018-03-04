@@ -9,4 +9,6 @@ target 'Safety' do
   pod "EVReflection"
   pod 'ZIPFoundation'
   pod "TraceLog"
+  pod 'Firebase/Core'
+  pod 'FirebaseDatabase'
 end
