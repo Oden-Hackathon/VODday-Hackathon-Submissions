@@ -158,9 +158,53 @@
                                     <action selector="helpMe:" destination="hGi-Uj-em2" eventType="touchUpInside" id="jf5-sK-9mH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgB-FE-x8B">
-                                <rect key="frame" x="329" y="20" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVL-Mf-1EY">
+                                <rect key="frame" x="329" y="110" width="30" height="30"/>
+                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AJg-Gg-03t"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="VeQ-On-Fd4"/>
+                                    <constraint firstAttribute="width" constant="30" id="qL3-uT-TFd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="uLt-sH-nzM"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                                <state key="normal" image="needle"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="needleClick:" destination="hGi-Uj-em2" eventType="touchUpInside" id="UCM-Oj-o1c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drf-YT-wwa">
+                                <rect key="frame" x="329" y="160" width="30" height="30"/>
+                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="QRu-Ju-t8D"/>
+                                    <constraint firstAttribute="height" constant="30" id="ZbG-7Q-qfp"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="medical"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="medicalClick:" destination="hGi-Uj-em2" eventType="touchUpInside" id="m9K-N5-ieg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgB-FE-x8B">
+                                <rect key="frame" x="329" y="60" width="30" height="30"/>
+                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9xc-Mw-kg0"/>
+                                    <constraint firstAttribute="width" constant="30" id="f7s-Lw-ZuD"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="heart"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="titleEdgeInsets.top">
@@ -175,32 +219,40 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="titleEdgeInsets.bottom">
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVL-Mf-1EY">
-                                <rect key="frame" x="329" y="60" width="30" height="30"/>
-                                <state key="normal" image="needle"/>
+                                <connections>
+                                    <action selector="heartClick:" destination="hGi-Uj-em2" eventType="touchUpInside" id="Dut-fF-HxG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="GXF-iD-kXC" firstAttribute="bottom" secondItem="47h-5x-VQb" secondAttribute="bottom" id="17l-Kp-hZx"/>
                             <constraint firstItem="GXF-iD-kXC" firstAttribute="leading" secondItem="Ww8-Aj-oyx" secondAttribute="leading" id="2Cz-FJ-IRZ"/>
-                            <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="lVL-Mf-1EY" secondAttribute="trailing" constant="16" id="3xc-O7-emz"/>
                             <constraint firstItem="GXF-iD-kXC" firstAttribute="top" secondItem="Ww8-Aj-oyx" secondAttribute="top" id="8EN-wP-gaV"/>
                             <constraint firstItem="lyg-zf-mst" firstAttribute="leading" secondItem="47h-5x-VQb" secondAttribute="leading" constant="63" id="9i9-P7-dm6"/>
+                            <constraint firstItem="MgB-FE-x8B" firstAttribute="top" secondItem="47h-5x-VQb" secondAttribute="top" constant="40" id="CcK-bY-qRa"/>
+                            <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="drf-YT-wwa" secondAttribute="trailing" constant="16" id="Gsd-XP-cAS"/>
                             <constraint firstItem="47h-5x-VQb" firstAttribute="bottom" secondItem="lyg-zf-mst" secondAttribute="bottom" constant="22" id="HsP-rg-Vm3"/>
                             <constraint firstAttribute="trailing" secondItem="GXF-iD-kXC" secondAttribute="trailing" id="JXH-mM-Ngu"/>
-                            <constraint firstItem="MgB-FE-x8B" firstAttribute="top" secondItem="47h-5x-VQb" secondAttribute="top" id="Kwk-XH-HUf"/>
+                            <constraint firstItem="lVL-Mf-1EY" firstAttribute="top" secondItem="MgB-FE-x8B" secondAttribute="bottom" constant="20" id="Kmu-4y-arG"/>
                             <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="lyg-zf-mst" secondAttribute="trailing" constant="62" id="L9r-Hd-cVe"/>
-                            <constraint firstItem="lVL-Mf-1EY" firstAttribute="top" secondItem="MgB-FE-x8B" secondAttribute="bottom" constant="10" id="jb0-6o-LPa"/>
-                            <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="MgB-FE-x8B" secondAttribute="trailing" constant="16" id="kDN-66-KNP"/>
+                            <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="MgB-FE-x8B" secondAttribute="trailing" constant="16" id="aU6-tC-mpi"/>
+                            <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="lVL-Mf-1EY" secondAttribute="trailing" constant="16" id="eAJ-OO-srW"/>
+                            <constraint firstItem="47h-5x-VQb" firstAttribute="trailing" secondItem="lVL-Mf-1EY" secondAttribute="trailing" constant="16" id="f5E-A6-vHL"/>
+                            <constraint firstItem="drf-YT-wwa" firstAttribute="top" secondItem="MgB-FE-x8B" secondAttribute="bottom" constant="70" id="hv5-Gy-LdA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="47h-5x-VQb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" id="roE-zQ-jP2"/>
                     <connections>
                         <outlet property="MView" destination="GXF-iD-kXC" id="bdh-x5-b6D"/>
+                        <outlet property="heartButton" destination="MgB-FE-x8B" id="7JZ-SL-T8P"/>
+                        <outlet property="medical" destination="drf-YT-wwa" id="Anj-Qm-ISE"/>
+                        <outlet property="needleButton" destination="lVL-Mf-1EY" id="BJI-pj-jJU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iZm-Xb-T3q" sceneMemberID="firstResponder"/>
@@ -212,6 +264,7 @@
         <image name="heart" width="30" height="30"/>
         <image name="list" width="30" height="30"/>
         <image name="map" width="30" height="30"/>
+        <image name="medical" width="30" height="30"/>
         <image name="needle" width="25" height="25"/>
     </resources>
 </document>
