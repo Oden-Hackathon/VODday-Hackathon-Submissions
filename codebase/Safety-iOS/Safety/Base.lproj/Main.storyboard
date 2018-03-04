@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second-->
+        <!--Alert Feed-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Safety" customModuleProvider="target" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Alert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M45-lX-09y">
-                                                    <rect key="frame" x="34" y="15" width="211" height="24"/>
+                                                    <rect key="frame" x="25" y="15" width="211" height="24"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="211" id="2nQ-az-KZT"/>
                                                     </constraints>
@@ -53,7 +53,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="More details" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kG-cB-B2Z">
-                                                    <rect key="frame" x="35" y="46" width="325" height="30"/>
+                                                    <rect key="frame" x="25" y="46" width="335" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -71,12 +71,12 @@
                                             <constraints>
                                                 <constraint firstItem="M45-lX-09y" firstAttribute="leading" secondItem="1kG-cB-B2Z" secondAttribute="leading" id="3JG-uI-GEu"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="UwR-75-nNZ" secondAttribute="trailing" constant="-1" id="CIC-7g-G2s"/>
-                                                <constraint firstItem="1kG-cB-B2Z" firstAttribute="leading" secondItem="V2g-G8-rxA" secondAttribute="leadingMargin" constant="20" id="N0T-3H-dcf"/>
+                                                <constraint firstItem="1kG-cB-B2Z" firstAttribute="leading" secondItem="V2g-G8-rxA" secondAttribute="leadingMargin" constant="10" id="N0T-3H-dcf"/>
                                                 <constraint firstItem="1kG-cB-B2Z" firstAttribute="top" secondItem="M45-lX-09y" secondAttribute="bottom" constant="7" id="Ucr-a1-BmT"/>
                                                 <constraint firstItem="1kG-cB-B2Z" firstAttribute="top" secondItem="V2g-G8-rxA" secondAttribute="topMargin" constant="35" id="aZM-ZB-FRX"/>
-                                                <constraint firstItem="UwR-75-nNZ" firstAttribute="trailing" secondItem="1kG-cB-B2Z" secondAttribute="trailing" id="hVA-LH-TzE"/>
+                                                <constraint firstItem="UwR-75-nNZ" firstAttribute="trailing" secondItem="1kG-cB-B2Z" secondAttribute="trailing" constant="1" id="hVA-LH-TzE"/>
                                                 <constraint firstItem="UwR-75-nNZ" firstAttribute="top" secondItem="V2g-G8-rxA" secondAttribute="topMargin" constant="-6" id="hu0-dW-dfO"/>
-                                                <constraint firstItem="M45-lX-09y" firstAttribute="leading" secondItem="V2g-G8-rxA" secondAttribute="leadingMargin" constant="19" id="j67-Vy-RHy"/>
+                                                <constraint firstItem="M45-lX-09y" firstAttribute="leading" secondItem="V2g-G8-rxA" secondAttribute="leadingMargin" constant="10" id="j67-Vy-RHy"/>
                                                 <constraint firstItem="1kG-cB-B2Z" firstAttribute="top" secondItem="UwR-75-nNZ" secondAttribute="bottom" constant="8" symbolic="YES" id="r4d-TG-v1M"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -106,7 +106,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Alert Feed" image="list" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="tableView" destination="Thd-qF-crt" id="SjG-Wx-w18"/>
                     </connections>
@@ -125,8 +125,8 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="hGi-Uj-em2" kind="relationship" relationship="viewControllers" id="twS-Oc-fQE"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -183,7 +183,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="map" width="16" height="16"/>
-        <image name="second" width="30" height="30"/>
+        <image name="list" width="30" height="30"/>
+        <image name="map" width="30" height="30"/>
     </resources>
 </document>
