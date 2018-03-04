@@ -224,13 +224,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVL-Mf-1EY">
-                                <rect key="frame" x="329" y="60" width="30" height="30"/>
-                                <state key="normal" image="needle"/>
-                                <connections>
-                                    <action selector="heartClick:" destination="hGi-Uj-em2" eventType="touchUpInside" id="Dut-fF-HxG"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
