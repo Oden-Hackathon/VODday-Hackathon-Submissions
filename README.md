@@ -62,7 +62,7 @@ for help
 ## Prototype
 
 ### Live Prototype
-[Link to your prototype]
+https://github.com/Oden-Hackathon/VODday-Hackathon-Submissions
 
 
 ### Presentation
