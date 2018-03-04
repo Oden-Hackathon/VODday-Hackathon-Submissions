@@ -1,22 +1,5 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
-      "properties" :
-      {
-        "name" : "St. Paul's Hospital",
-        "type" : "",
-        "address" : "",
-        "phone" : "",
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hours": 0,
-              "minutes": 0
-            }
-          }
-      }
-    }
   ]
 }
