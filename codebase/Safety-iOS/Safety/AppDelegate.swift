@@ -129,7 +129,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
 
     func converted(_ entry: ManifestEntry, to convertedDatasetURL: URL!)
     {
-        print("converted \(entry.provider!) to: \(convertedDatasetURL.path)")
+        sync(self)
+        {
+            print("converted \(entry.provider!) to: \(convertedDatasetURL.path)")
         
         /*
          do
@@ -142,11 +144,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
          }
          */
         
-        print("----")
+            print("----")
+        }
     }
     
     func conversionCompleted(_ entries : [ManifestEntry]!)
     {
+        sync(self)
+        {
+            print("conversion completed")
+        }
+        
         let convertedDatasetURLs = Manifest.getLocalDatasetFilesFor(entries)!
 
         AppNotifications.postDataReceived(convertedDatasetURLs)

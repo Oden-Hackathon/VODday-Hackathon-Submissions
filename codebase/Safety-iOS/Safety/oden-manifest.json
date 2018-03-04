@@ -7,11 +7,11 @@
     "city":"Vancouver",
     "provider":"City of Vancouver",
     "schema":"",
-    "converter":"https://raw.githubusercontent.com/Oden-Hackathon/VODday-Hackathon-Submissions/master/codebase/converters/CA/BC/Metro%20Vancouver/Vancouver/City%20of%20Vancouver/Automated%20External%20Defibrillator-JSON-JSON.js",
+    "converter": "https://raw.githubusercontent.com/Oden-Hackathon/VODday-Hackathon-Submissions/develop/codebase/converters/CA/BC/Metro%20Vancouver/Vancouver/City%20of%20Vancouver/Automated%20External%20Defibrillator-JSON-JSON.js",
     "id":"97586E7C5FE9CE97F2A93649CA8613CF7D45E1F50251825E00ACFB1F410B1802",
     "downloads":[
       {
-        "src":"https://raw.githubusercontent.com/tofubeer/VODday-Hackathon-Submissions/master/codebase/data/CA/BC/Metro%20Vancouver/Vancouver/City%20of%20Vancouver/Automated%20External%20Defibrillator.json",
+        "src":"https://raw.githubusercontent.com/Oden-Hackathon/VODday-Hackathon-Submissions/develop/codebase/data/CA/BC/Metro%20Vancouver/Vancouver/City%20of%20Vancouver/Automated%20External%20Defibrillator.json",
         "encoding":"utf8"
       }
     ]
