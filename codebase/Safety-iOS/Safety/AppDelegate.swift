@@ -11,6 +11,7 @@ import MapKit
 import CoreLocation
 import UserNotifications
 import TraceLog
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegate, CLLocationManagerDelegate {
@@ -40,6 +41,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
         catch {
             print (error)
         }
+        
+        FirebaseApp.configure()
         
         // Override point for customization after application launch.
         return true
