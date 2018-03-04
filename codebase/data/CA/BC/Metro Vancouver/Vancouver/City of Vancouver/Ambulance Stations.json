@@ -1,5 +1,446 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+  "name":"Electric Vehicle Charging Stations",
+  "type":"FeatureCollection",
+  "crs":{
+    "type":"name",
+    "properties":{
+      "name":"EPSG:26910"
+    }
+  },
+  "features":[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492699.273158735,
+          5452194.8678692
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"City of Vancouver",
+        "ADDRESS":"6810 Main Street"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490030.589839433,
+          5459748.02857592
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easy Park Lot",
+        "ADDRESS":"900 Denman St"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491728.474366335,
+          5456641.37815728
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easy Park Lot",
+        "ADDRESS":"455 West 10th Ave"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490876.302363539,
+          5459734.0881479
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Coal Harbour Community Centre",
+        "ADDRESS":"480 Broughton Street"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492244.823562392,
+          5454547.89909491
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"CoV",
+        "ADDRESS":"4575 Clancy Loranger Way"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          486470.62874532,
+          5457306.75843206
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Jericho Village",
+        "ADDRESS":"2083 Alma St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491299.502884993,
+          5459368.31643207
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Ivanhoe Cambridge",
+        "ADDRESS":"1040 W. Pender St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492208.623295618,
+          5451029.20185501
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Canadian Tire",
+        "ADDRESS":"26 Marine Drive SW"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491786.757883894,
+          5459450.52040889
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Canada Place",
+        "ADDRESS":"999 Canada Place Way"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491469.212356294,
+          5458997.64864467
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easy Park Lot",
+        "ADDRESS":"701 W. Georgia St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491439.283182174,
+          5453407.26460698
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Ivanhoe Cambridge",
+        "ADDRESS":"650 W.41st Ave."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490203.231597836,
+          5450145.04598114
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"ASQ Building Ltd",
+        "ADDRESS":"1200 W.73rd Ave."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490534.689454529,
+          5460819.93994724
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Vancouver Aquarium",
+        "ADDRESS":"845 Avison Way"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491633.40634238,
+          5458983.05525738
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"BCIT / Impark",
+        "ADDRESS":"555 Seymour St,"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489660.185057578,
+          5458943.2779521
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easy Park / Park Board",
+        "ADDRESS":"Beach Ave. @ Cardero St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          489832.93151971,
+          5458757.07777811
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easy Park / Park Board",
+        "ADDRESS":"Beach Ave. @ Broughton St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490020.310097908,
+          5458451.34774456
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easy Park / Park Board",
+        "ADDRESS":"Beach Ave. @ Bute St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491219.610723935,
+          5459359.01393578
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Ivanhoe Cambridge",
+        "ADDRESS":"1055 Eveleigh St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490932.269222402,
+          5458333.70577512
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Best Western",
+        "ADDRESS":"1100 Granville St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491363.240443888,
+          5458250.74553441
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"City of Vancouver",
+        "ADDRESS":"911 Mainland St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491591.688715191,
+          5458525.42819101
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easypark",
+        "ADDRESS":"775 Hamilton St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490984.972299832,
+          5456406.80817562
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Vancouver General Hospital",
+        "ADDRESS":"890 W.12th Ave."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490984.972299832,
+          5456406.80817562
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"VSB",
+        "ADDRESS":"1580 W. Broadway"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          494817.749262749,
+          5458147.9076318
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"VSB",
+        "ADDRESS":"1661 Napier St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492591.014872615,
+          5458510.65031264
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easypark",
+        "ADDRESS":"180 Keefer St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          496833.677035173,
+          5459300.44071069
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Pacific National Exhibition",
+        "ADDRESS":""
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          488895.971730392,
+          5457901.09465337
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"City of Vancouver",
+        "ADDRESS":"1305 Arbutus St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          491519.408874643,
+          5458630.37335831
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Impark",
+        "ADDRESS":"788 Richards St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          492695.988666954,
+          5456882.74863557
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Easypark",
+        "ADDRESS":"1 Kingsway"
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          490601.358346215,
+          5452686.13706123
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"Telus / Retailer",
+        "ADDRESS":"6469 Oak St."
+      }
+    },
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          497542.756684009,
+          5458735.55285177
+        ]
+      },
+      "properties":{
+        "LOT_OPERATOR":"City of Vancouver",
+        "ADDRESS":""
+      }
+    }
   ]
 }
