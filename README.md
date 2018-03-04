@@ -2,42 +2,62 @@
 *This is a sample submission repository for Open Data Hackathon Projects. You can [fork this repo](https://help.github.com/articles/fork-a-repo/) and use this as a starting point.*
 
 ## Team Name
-*Choose a fun team name!*
+Yudy and the blowfish
 
 
 
 ## Vancouver Open Data Day Challenge
 *What VODDay Challenge is your project focusing on? (See the [2018 VODday Challenges](https://www.opendatabc.ca/pages/vodday-2018-vancouver-open-data-day-hackathon#challenges).)*
 
+Opioid Overdose Crisis, Harm Reduction and Mental Health
+
 
 
 ## Prototype Problem Statement
-*A clear statement of the problem your team has identified to address through the project. Use this problem statement as the basis to ideate around. Research and validate the problem to test if it is an issue, or if others are already addressing in. You may need to pivit your problem statement, and ideas around approach depending on what you discover about the issue and resources available.* 
-
-*This will help focus your approach to addressing the challenge.*
 
 
+We want to modernize getting help. Using Mobile tech we want to cut the time it takes
+to get help on situations that are plaguing our society. From overdoeses to heart attacks
+we want to make it easy for someone to get the help they need. 
 
 ## Protoype Summary
-*Summarize your approach to addressing the challenge. Highlight the value of your approach to addressing the challenge, who your inteded users are, and the long term vision.*
 
+Our approach was simple. We used a mobile app to allow users to track the nearest Naloxone kits, AED,
+police, hospital, and ambulanance. 
 
 
 ## Open Data Sets
 
 ### What Open Data Sets Did You Use?
 
-*What open data sets, standards, OpenAPI's etc does your prototype draw on? How does it use them?*
-
- - List them here...
+ We used Vancouver Open Data Sets
+ 
+ Pieces of the open data were not there, so we used temp data we still pulled from Vancouver
+ for the AED we pulled the data from the map hosted on vancouver.ca. We used the data that is
+ populated by the map and created a json data set which we use to track the AED.
+ Fire stations we used the fire halls open data source
+ the rest were randomly selected from the Vancouver Open data set as demonstrations of what it 
+ could look like.
  
  
 
 ### What Open Data Sets Do You Still Need?
-*What open data sets are not yet available, but are needed for or would benifit your project. Explain how you would use the data to improve your prototype and address the challenge. Who might have this data?*
 
-*This is your chance to form a mini business case for the data you need to share with open data providers!*
+Ambulance Stations - 
 
+Automated External Defibrillator - Where public and private are located with details
+of exactly where it is located at the location. With that you could help out someone in
+need in a short amount of time just by knowing exactly where it is.
+
+Naloxone Kits - Same as the AED above this could be highly useful if the data was easily accessible
+
+Hospitals - A place where you have the data for hospitals and their type and location stored so
+if someone needs help they can find the nearest help needed without having to take the time to 
+search for themselves.
+
+Police Stations - Again easily accessible help if someone needs it. Not having a place where
+the data is easily access can cause issues if someone has to look up and sort through 
+for help
 
 ## Prototype
 
@@ -46,14 +66,13 @@
 
 
 ### Presentation
-*Link to your presentation or any related visuals you want to share.*
+https://docs.google.com/presentation/d/1zuGadOXQ600b_tgJAnwQdeQepUCPaKShJe43FcVreCI/edit?usp=sharing
 
 
 
 ## Next Steps
-*What do you need to do next to turn this prototype into a working solution?*
-
-
+We are working with the New West Minster Police department.
+We need proper data, and time to finish developing and presenting the solution as an application
 
 ## Progress
 *Keep updating as you continue to turn your prototype into a working solution.*
@@ -62,6 +81,7 @@
  - Tweet [@OpenDataBC](https://twitter.com/opendatabc) with your updates
  - Show off your progress at [OpenDataBC events](https://www.meetup.com/OpenDataBC-Vancouver)
  - Share your prototype and progress with the organizations related to the challenge your adressing and the providers of the open data you are using.
+
 
 
 
