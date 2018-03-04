@@ -40,10 +40,10 @@ class FeedAlert: NSObject {
             return nil
         }
         
-        guard let location = dict["location"] as? [String : String] else {
-            print("location is nil")
-            return nil
-        }
+//        guard let location = dict["location"] as? [String : String] else {
+//            print("location is nil")
+//            return nil
+//        }
         
         guard let message = dict["message"]  as? String else {
             print ("message is nil")
@@ -65,7 +65,7 @@ class FeedAlert: NSObject {
             return nil
         }
         
-        print ("LOCATION \(location)")
+        //print ("LOCATION \(location)")
         
         // _feed.append(FeedAlert(timestamp: 1520115759, location: CLLocation(), type: FeedAlert.AlertType.accident, message: "Highway closed at Boundary Rd."))
         
