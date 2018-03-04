@@ -32,7 +32,7 @@ class FirstViewController: UIViewController {
             logTrace { "exit DataReceived receiver" }
         }
         
-        AppNotifications.postRequestData("oden-manifest")
+        AppNotifications.postRequestData("oden-manifest", overwrite: false)
         observer = Notifications.addObserver(messageName: Location.LOCATION_CHANGED, object: nil) { _ in
             self.updateUserLocation(location: Location.currentLocation)
         }
@@ -99,8 +99,36 @@ class FirstViewController: UIViewController {
         urls.forEach
         {
             (url) in
+
+            do
+            {
+                let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
+
+                print(url)
+                do
+                {
+                    print(try String(contentsOf: url));
+                }
+                catch
+                {
+                    print(error)
+                }
+//                plotPoints(locations)
+            }
+            catch
+            {
+                print("\(url.path) \(error.localizedDescription)")
+            }
+        }
+    }
+    
+    private func plotPoints(_ locations : AutomatedExternalDefibrillator)
+    {
+        locations.features!.forEach
+        {
+            (feature) in
             
-            print(url.path)
+            print(feature)
         }
     }
     

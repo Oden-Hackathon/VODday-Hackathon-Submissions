@@ -16,6 +16,7 @@
 		BA04F7957A09223B37A941D8 /* Pods_Safety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0350E6BF17129D300203A /* Pods_Safety.framework */; };
 		C738B555204B4A2A00C57A2D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B554204B4A2A00C57A2D /* Notifications.swift */; };
 		C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B556204B4AE500C57A2D /* AppNotifications.swift */; };
+		C738B55B204B79B600C57A2D /* AutomatedExternalDefibrillator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B55A204B79B600C57A2D /* AutomatedExternalDefibrillator.swift */; };
 		C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447AF204B444F00205598 /* ManifestEntry.swift */; };
 		C7B447B7204B444F00205598 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B0204B444F00205598 /* Downloader.swift */; };
 		C7B447B8204B444F00205598 /* SyncUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B447B1204B444F00205598 /* SyncUtils.swift */; };
@@ -41,6 +42,7 @@
 		B990D25A204B74D8005211EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C738B554204B4A2A00C57A2D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		C738B556204B4AE500C57A2D /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
+		C738B55A204B79B600C57A2D /* AutomatedExternalDefibrillator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedExternalDefibrillator.swift; sourceTree = "<group>"; };
 		C7B447AF204B444F00205598 /* ManifestEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManifestEntry.swift; sourceTree = "<group>"; };
 		C7B447B0204B444F00205598 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		C7B447B1204B444F00205598 /* SyncUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncUtils.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				B990D256204B6474005211EB /* oden-manifest.json */,
 				C738B554204B4A2A00C57A2D /* Notifications.swift */,
 				C738B556204B4AE500C57A2D /* AppNotifications.swift */,
+				C738B55A204B79B600C57A2D /* AutomatedExternalDefibrillator.swift */,
 				B990D25A204B74D8005211EB /* GoogleService-Info.plist */,
 			);
 			path = Safety;
@@ -293,6 +296,7 @@
 				C7E9F3F6204B27B600E4D8A1 /* FirstViewController.swift in Sources */,
 				C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */,
 				5481FE87204B5F8A00391DD8 /* FeedAlertViewCell.swift in Sources */,
+				C738B55B204B79B600C57A2D /* AutomatedExternalDefibrillator.swift in Sources */,
 				C7B447BC204B444F00205598 /* ManifestDownloaderDelegate.swift in Sources */,
 				B990D259204B6C78005211EB /* VCMapView.swift in Sources */,
 				C7B447B6204B444F00205598 /* ManifestEntry.swift in Sources */,
