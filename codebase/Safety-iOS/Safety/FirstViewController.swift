@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import TraceLog
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, MKMapViewDelegate {
     var receivedDataReceiver: NSObjectProtocol?
 
     @IBOutlet weak var MView: MKMapView!
@@ -19,16 +19,65 @@ class FirstViewController: UIViewController {
     var observer:  NSObjectProtocol?
     var centered: Bool = false
     var selfAnnotation: MKPointAnnotation?
+
+    var onColor = UIColor.yellow
+    var offColor = UIColor.darkGray
+
+    var heartOn = false
+    var needleOn = false
+    var medicalOn = false
+
+    @IBOutlet var heartButton: UIButton!
+    @IBOutlet var needleButton: UIButton!
+    @IBOutlet var medical: UIButton!
+    
+    @IBAction func heartClick(_ sender: Any) {
+        
+        heartOn = !heartOn
+        print("heart click \(heartOn)")
+        
+        (sender as! UIButton).tintColor = heartOn ? onColor : offColor
+
+        reloadPins()
+        
+    }
+    
+    @IBAction func needleClick(_ sender: Any) {
+        
+        needleOn = !needleOn
+        print("needle click \(needleOn)")
+        
+        (sender as! UIButton).tintColor = needleOn ? onColor : offColor
+        reloadPins()
+        
+    }
+    
+    @IBAction func medicalClick(_ sender: Any) {
+        
+        medicalOn = !medicalOn
+        print("medical click: \(medicalOn)")
+
+        (sender as! UIButton).tintColor = medicalOn ? onColor : offColor
+        reloadPins()
+        
+    }
+
+    func reloadPins() {
+        // Todo this
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        MView.delegate = self
         receivedDataReceiver = AppNotifications.addDataReceivedObserver(object: nil)
         {
-            (urls) in
+            (url, type) in
             
             logTrace { "enter DataReceived receiver" }
-            self.receivedData(urls)
+            self.receivedData(url, type: type)
             logTrace { "exit DataReceived receiver" }
         }
         
@@ -94,41 +143,36 @@ class FirstViewController: UIViewController {
         MView.setRegion (coordinateRadius, animated:true)
     }
 
-    private func receivedData(_ urls : [URL]!)
+    private func receivedData(_ url : URL!, type: String!)
     {
-        urls.forEach
+        do
         {
-            (url) in
-
-            do
-            {
-                let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
-
-                plotPoints(locations)
-            }
-            catch
-            {
-                print("\(url.path) \(error.localizedDescription)")
-            }
+            let locations = try AutomatedExternalDefibrillator.getAutomatedExternalDefibrillators(from: url)
+            plotPoints(locations, type: type)
+        }
+        catch
+        {
+            print("\(url.path) \(error.localizedDescription)")
         }
     }
     
-    private func plotPoints(_ objects : AutomatedExternalDefibrillator)
+    private func plotPoints(_ objects : AutomatedExternalDefibrillator, type: String!)
     {
         objects.features!.forEach
         {
             (feature) in
-            
+
+
             let coordinate = CLLocationCoordinate2D(latitude: feature.geometry!.coordinates![1],
                                                     longitude: feature.geometry!.coordinates![0])
             let annotation = MKPointAnnotation()
             
             annotation.coordinate = coordinate
             annotation.title      = feature.properties!.name!
+            annotation.subtitle   = "Hospital" // TODO
             self.MView.addAnnotation(annotation)
-            
-            print(annotation.title!)
         }
+
     }
     
     func helpAlert (title: String) {
@@ -195,5 +239,28 @@ class FirstViewController: UIViewController {
         self.present(optionMenu, animated: true, completion: nil)
     }
     
+    // https://www.hackingwithswift.com/read/19/3/annotations-and-accessory-views-mkpinannotationview
+    private func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?
+    {
+        if annotation.subtitle! == "Hospital"
+        {
+            var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: annotation.description)
+            
+            if annotationView == nil
+            {
+                annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: annotation.description)
+                annotationView!.canShowCallout = false
+                annotationView!.tintColor = .green
+            }
+            else
+            {
+                annotationView!.annotation = annotation
+            }
+            
+            return annotationView
+        }
+        
+        return nil
+    }
 }
 
