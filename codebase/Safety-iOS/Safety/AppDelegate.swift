@@ -34,14 +34,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ManifestDownloaderDelegat
             self.requestData(fileName, overwrite: overwrite)
             logTrace { "exit RequestData receiver" }
         }
-        
+
+        /*
         do {
             try downloader.download("oden-manifest", overwrite: true)
         }
         catch {
             print (error)
         }
-        
+        */
         FirebaseApp.configure()
         
         // Override point for customization after application launch.
