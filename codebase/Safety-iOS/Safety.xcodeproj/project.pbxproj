@@ -12,6 +12,7 @@
 		B990D255204B63E4005211EB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D254204B63E4005211EB /* Location.swift */; };
 		B990D257204B6474005211EB /* oden-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B990D256204B6474005211EB /* oden-manifest.json */; };
 		B990D259204B6C78005211EB /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990D258204B6C78005211EB /* VCMapView.swift */; };
+		B990D25B204B74D9005211EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B990D25A204B74D8005211EB /* GoogleService-Info.plist */; };
 		BA04F7957A09223B37A941D8 /* Pods_Safety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0350E6BF17129D300203A /* Pods_Safety.framework */; };
 		C738B555204B4A2A00C57A2D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B554204B4A2A00C57A2D /* Notifications.swift */; };
 		C738B557204B4AE500C57A2D /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B556204B4AE500C57A2D /* AppNotifications.swift */; };
@@ -38,6 +39,7 @@
 		B990D254204B63E4005211EB /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B990D256204B6474005211EB /* oden-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "oden-manifest.json"; sourceTree = "<group>"; };
 		B990D258204B6C78005211EB /* VCMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		B990D25A204B74D8005211EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C738B554204B4A2A00C57A2D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		C738B556204B4AE500C57A2D /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
 		C738B55A204B79B600C57A2D /* AutomatedExternalDefibrillator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedExternalDefibrillator.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				C738B554204B4A2A00C57A2D /* Notifications.swift */,
 				C738B556204B4AE500C57A2D /* AppNotifications.swift */,
 				C738B55A204B79B600C57A2D /* AutomatedExternalDefibrillator.swift */,
+				B990D25A204B74D8005211EB /* GoogleService-Info.plist */,
 			);
 			path = Safety;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				B990D257204B6474005211EB /* oden-manifest.json in Resources */,
 				C7E9F400204B27B600E4D8A1 /* LaunchScreen.storyboard in Resources */,
+				B990D25B204B74D9005211EB /* GoogleService-Info.plist in Resources */,
 				C7E9F3FD204B27B600E4D8A1 /* Assets.xcassets in Resources */,
 				C7E9F3FB204B27B600E4D8A1 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +258,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Safety/Pods-Safety-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/TraceLog/TraceLog.framework",
 				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TraceLog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
