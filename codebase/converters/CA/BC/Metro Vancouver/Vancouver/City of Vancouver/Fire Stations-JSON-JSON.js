@@ -38,8 +38,8 @@ function convert(data)
         geometry.type = "Point";
         geometry.coordinates =
             [
-                parseFloat(fields[1]),
-                parseFloat(fields[2])
+                parseFloat(fields[2]),
+                parseFloat(fields[1])
             ]
 
         properties.name = fields[0];
